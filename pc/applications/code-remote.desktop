@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=VS Code Remote
+Comment=SSH - Vectorscope vps 
+GenericName=Text Editor
+Exec=/usr/share/code-insiders/code-insiders --profile Remote --folder-uri "vscode-remote://ssh-remote+vps" --enable-features=UseOzonePlatform,WaylandWindowDecorations --ozone-platform-hint=auto %F
+Icon=vscode-insiders
+Type=Application
+StartupNotify=false
+StartupWMClass=Code
+Categories=TextEditor;Development;IDE;
+MimeType=application/x-code-insiders-workspace;
+Keywords=vscode;

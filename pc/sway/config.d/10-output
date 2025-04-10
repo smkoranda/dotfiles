@@ -1,0 +1,6 @@
+### Output configuration
+# Set Displays, Refresh and VRR
+output eDP-1
+
+## Background
+output * bg #282828 solid_color

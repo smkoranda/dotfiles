@@ -1,0 +1,29 @@
+#!/usr/bin/env python3
+from pathlib import Path
+import sys
+
+INC = 15
+
+if len(sys.argv) != 2:
+    sys.exit(1)
+
+i = sys.argv[1]
+p = Path("/sys/devices/platform/led-controller/leds/kbd_backlight")
+
+brightness     = p / "brightness"
+max_brightness = p / "max_brightness"
+
+current_value  = int(brightness.read_text())
+max_value      = int(max_brightness.read_text())
+
+if i == '+' and current_value < max_value:
+    value = min(current_value + INC, max_value)
+    brightness.write_text(str(value))
+    sys.exit(0)
+
+if i == '-' and current_value > 0:
+    value = max(current_value - INC, 0)
+    brightness.write_text(str(value))
+    sys.exit(0)
+
+sys.exit(1)
