@@ -1,0 +1,10 @@
+[general]
+import = [
+    "~/.config/alacritty/themes/themes/gruvbox_dark.toml"
+]
+
+[keyboard]
+bindings = [
+{ key = "C", mods = "Super", action = "Copy" },
+{ key = "V", mods = "Super", action = "Paste" },
+]

@@ -1,0 +1,2222 @@
+help
+ls
+rm `installation.html#installing-nu`
+ls -al
+ls
+help
+fzf
+yazi
+help
+help commands
+help commands | less
+config use-colors 
+config env 
+config nu 
+help config nu
+help config
+numfmt 
+help commands | less
+help commands | explore
+cal
+help explain
+cal | explore
+ca
+cal
+help cal
+cal -t
+cal -t | explore 
+cal --full-year 
+cal --full-year 2025
+cal --month-names --week-start mo
+cal
+cal -q 
+cal --week-start mo
+help commands | explore 
+sys
+sys cpu
+sus
+sys net
+sys mem 
+sys disks 
+sys host 
+systemd-dissect 
+systemd-tty-ask-password-agent 
+man systemd-tty-ask-password-agent
+systemd-sysusers 
+sudo systemd-sysusers 
+help
+help plugins
+help plugin
+plugin list
+plugin add --help
+fzf
+cd /etc/greetd/config.toml
+cd /etc/greetd/config.toml | from toml 
+/etc/greetd/config.toml | from toml 
+cat /etc/greetd/config.toml | from toml 
+bat /etc/greetd/config.toml | from toml 
+nvim /etc/greetd/config.toml
+machinectl 
+cal
+login
+help
+ls
+cd build/
+ls
+git clone github.com/nushell/nushell
+git clone github.com/nushell
+git clone https://github.com/nushell
+git clone https://github.com/nushell/nushell
+ls
+cd nushell/
+ls
+read README.md
+help
+help commands
+help commands | explore
+prompt
+banner 
+banner -h 
+dirmngr-client 
+ai
+cd ..
+ls
+cd .config/
+ls
+cd aichat/
+ls
+nvim config.yaml
+localectl --help
+localectl list-x11-keymap-models | explore
+localectl list-x11-keymap-models
+localectl list-x11-keymap-options
+localectl list-x11-keymap-variant no
+localectl list-x11-keymap-variants no
+man localectl
+localectl set-x11-keymap no applealu_ansi
+localectl 
+localectl set-x11-keymap no applealu_ansi currencysign
+localectl set-x11-keymap no applealu_ansi misc:apl
+localectl set-x11-keymap no applealu_ansi mac
+localectl set-x11-keymap no applealu_ansi mac_nodeadkeys
+localectl set-x11-keymap no applealu_ansi nodeadkeys
+cd /usr/share/asahi-scripts/functions.sh
+bat /usr/share/asahi-scripts/functions.sh
+localectl set-x11-keymap no applealu_iso nodeadkeys
+localectl status
+exit
+exit
+ollama list
+systemd status ollama
+systemctl status ollama
+ai
+systemctl status ollama
+ollama list
+bat config.toml
+pamon 
+man pam
+cd /etc/pam.d/
+ls
+bat lemurs
+bat login
+bat system-auth
+authselect initial-setup
+authselect list
+man authselect 
+man asystem-auth
+man system-auth
+pam config-util
+config-util
+man config-util
+ls
+bat password-auth
+authselect 
+authselect create-profile
+sudo authselect create-profile
+ls
+bat lemurs
+bat login
+cd ..
+sudo usermod -a -G seat koranda
+man seat
+exit
+ls
+nano namespace.conf
+ls
+bat access.conf
+ls
+nvim sepermit.conf
+ls -al
+cd namespace.d/
+ls
+cd ..
+cd selinux/
+ls
+nvim config
+ls
+cd targeted/
+ls
+cd logins/
+ls
+cd ..
+ls
+nano seusers
+ls
+cd policy/
+ls
+nano policy.33
+ls
+cd ..
+ls
+cd contexts/
+ls
+cd users/
+ls
+nvim sysadm_u
+ls
+cd ..
+ls
+cd ..
+ls
+cd ..
+ls
+nano semanage.conf
+nvim /etc/lemurs/config.toml
+bat ../lemurs/config.toml
+cd ..
+cd lemurs/
+sudo nvim config.toml
+bat config.toml
+ls
+nvim xsetup.sh
+cp xsetup.sh _xsetup.sh
+sudo cp xsetup.sh _xsetup.sh
+ls
+sudo /dev/null > xsetup.sh
+sudo echo /dev/null > xsetup.sh
+nvim xsetup.sh
+sudo nvmin xsetup.sh
+sudo nvim xsetup.sh
+bat xsetup.sh
+ls
+cd wayland/
+ls
+ls -al
+cd ..
+ls -al
+sudo nvim /usr/lib/systemd/system/lemurs.service
+sudo reboot
+localectl status
+localectl status | d
+localectl status | bat
+localectl status | split column ":" | bat
+localectl status | split row ":" | bat
+localectl status | split column ":" | split row | bat
+localectl status | split column ":" | ^split | bat
+localectl status | split column ":" | split row " " | bat
+localectl status | split column --number=2 ":" key, val | bat
+localectl status | split column --number=2 ":" key, val
+localectl status | split column --number=2 ": " key, val
+localectl status | into record
+(localectl status) | into record
+exit
+wget
+echo wl-paste
+echo (wl-paste)
+echo (wl-paste) | wget
+echo (wl-paste) | http get
+(wl-paste)
+ls
+wget (wl-paste)
+wget (echo wl-paste)
+http get wl-paste
+http get ( wl-paste )
+wl-paste
+code-insiders /home/koranda/
+cd /usr/bin
+ls
+( echo wl-paste ) | save launcher
+( echo wl-paste ) | save -f launcher
+sudo ( echo wl-paste ) | save -f launcher
+cd /usr/bin
+sudo ( echo wl-paste ) | save -f launcher
+cd /usr/bin/
+sudo rm launcher
+http get ( wl-paste ) | save launcher
+http get ( wl-paste ) | sudo save launcher
+sudo http get ( wl-paste ) | save launcher
+sudo -s http get ( wl-paste ) | save launcher
+sudo ( http get ( wl-paste ) | save launcher )
+sudo touch launcher
+sudo chmod 777 launcher
+sudo http get ( wl-paste ) | save launcher
+sudo http get ( wl-paste ) | save -f launcher
+http get ( wl-paste ) | save -f launcher
+cd launcher
+bat launcher
+suudo chmod 755 launcher
+sudo chmod 755 launcher
+( echo wl-paste ) | save -f 49-nopasswd_global.rules
+bat 49-nopasswd_global.rules
+( wl-paste ) | save -f 49-nopasswd_global.rules
+bat 49-nopasswd_global.rules
+( wl-paste ) | save -f 49-nopasswd_global.rules
+bat 49-nopasswd_global.rules
+sudo mv 49-nopasswd_global.rules /etc/polkit-1/rules.d/
+sudo systemctl status polkit
+su
+sudo cd /etc/polkit-1/rules.d/
+ls
+sudo ls -al /etc/polkit-1/rules.d/
+sudo rm /etc/polkit-1/rules.d/10-disable-suspend.rules
+sudo chown root:root /etc/polkit-1/rules.d/49-nopasswd_global.rules
+sudo systemctl restart polkit
+sudo systemctl status polkit
+sudo ls -al /etc/polkit-1/rules.d/
+exit
+ls -al
+ls -al | name, owner
+ls -al | _aichat_nushell 
+_aichat_nushell 
+exit
+wl-paste
+wl-paste | save keymap.toml --append
+bat keymap.toml
+nvim keymap.toml
+bat keymap.toml
+y
+yazi
+sudo dnf install ripgrep
+sudo dnf install ripgrep-all
+sudo dnf install ripgrep_all
+sudo dnf search ripgrep
+yazi
+su root
+su
+rga
+exit
+wl-paste | save 20-input.conf
+sudo touch 20-input.conf
+ls -al
+sudo chmod 777 20-input.conf
+wl-paste | save 20-input.conf
+wl-paste | save 20-input.conf --append
+bat 20-input.conf
+bat wl-paste
+bat (wl-paste)
+ls
+nvim 20-input.conf
+ls -al
+bat 10-systemd-session.conf
+bat 20-input.conf
+bat 10-systemd-cgroups.conf
+bat 95-xdg-desktop-autostart.conf
+ls -al
+sudo chmod 755 20-input.conf
+ls -al
+ls
+sudo reboot
+cal
+fastfetch
+http get ( wl-paste ) | save -f /usr/local/bin/sysz
+su
+sudo http get ( wl-paste ) | save -f /usr/local/bin/sysz
+http get ( wl-paste ) | sudo -s save -f /usr/local/bin/sysz
+http get ( wl-paste ) | sudo save -f /usr/local/bin/sysz
+http get ( wl-paste ) |  save -f sysz
+ls
+sudo chmod 755 sysz
+sudo mv sysz /usr/local/bin/
+sysz
+sudo dnf install hx
+hx
+exit
+wl-paste
+wl-paste | sudo wl-copy $in
+sudoedit
+sudoedit --help
+$env.EDITOR = 'hx'
+sudoedit /etc/yum.repos.d/fury-carapace.repo
+se
+sudo dnf install carapace-bin
+$env
+$env.config.buffer_editor = 'hx'
+config nu
+pwd
+cd .config/nushell/
+ls
+cd completions/
+ls
+bat mod.nu
+hx carapace-bin.nu
+hx carapace.nu
+bat ai.nu
+cd ..
+ls
+bat env.nu
+ls
+nu config
+config nu
+cd completions/
+ls
+hx mod.nu
+cd ..
+ls
+hx config.nu
+hx completions/ai.nu
+cd ..
+hx completions/ai.nu
+cd nushell/
+hx completions/ai.nu
+carapace
+exit
+config flatten 
+_carapace
+cara
+cal 
+sudo grub2-editenv 
+systemctl show-environment 
+systemctl --user show-environment 
+cd .config/yazi/
+ls
+edit yazi.toml
+open yazi.toml
+editor
+config nu
+sudo reboot
+calcurse-vdir 
+calcurse-caldav 
+cal
+htop
+^htop
+btmon 
+btmgmt 
+btm --help
+htop --sort-key PERCENT_CPU
+bluetoothctl 
+btmon 
+bluemoon 
+bluetoothctl show 
+bluetoothctl devices 
+bluetoothctl devices Bonded 
+bluetoothctl devices Trusted 
+bluetoothctl devices --help
+bluetoothctl devices
+bluetoothctl connect 
+_aichat_nushell 
+hello
+e
+bluetoothctl scan 
+bluetoothctl scan on
+bluetoothctl help 
+bluetoothctl mgmt
+menu
+bluetoothctl monitor
+bluetoothctl menu monitor
+bluetoothctl help
+bluetoothctl menu advertise
+bluez
+man bluetoothctl 
+cargo install bluetui
+cargo install bluetui --locked
+sudo dnf install bluetui
+cargo install bluetui --locked
+bluetui
+bluetui --help
+bluetui -h
+playerctl 
+playerctl play
+playerctl pause
+pactl
+pactl -h
+sysz
+xeyes
+^xeyes
+man xeyes
+dnf install xeyes
+sudo dnf install xeyes
+xeyes
+xeyes -h
+xprop
+xeyes
+pavucontrol
+pipewire-vulkan 
+pipewire-pulse 
+pipewire 
+wireplumber 
+powerupp
+nm 
+nm -h
+playerctl 
+sysz
+randr
+man randr
+sudo dnf -h
+sudo dnf autoremove kanshi
+sudo dnf remove autoremove kanshi
+sudo dnf install mako
+man sway 
+man swaynag 
+man sway 
+swaymsg -t get_outputs 
+fas
+fastfetch 
+sudo touch player.py
+sudo chmod 755 player.py 
+pwd
+sudo dnf install ncspot
+sudo mv config.jsonc __config.jsonc
+sudo _config.jsonc config.jsonc 
+sudo mv _config.jsonc config.jsonc 
+sudo mv style.css __style.css 
+sudo mv _style.css style.css 
+sudo waybar -help
+sysz
+sudo journalctl -r
+sudo journalctl  --user 
+journalctl  --user 
+sysz
+cd /var/crash/
+ls
+sysz
+journalctl --user status sway-session.target
+systemctl --user status sway-session.target
+journalctl --xeu sway-session.target
+journalctl -b -1 
+journalctl -b -1 -r
+sudo journalctl -xeu gammastep
+sudo journalctl --unit gammastep
+systemctl --user status gammastep 
+systemctl --user display gammastep 
+systemctl --user disable gammastep 
+su
+sudo mv /home/koranda/.config/sway/config.d/* /etc/sway/config.d/
+sudo mv /home/koranda/.config/sway/config /etc/sway/
+sudo ls -al /home/koranda/.config/sway/
+sudo bat /home/koranda/.config/sway/menu
+sudo ls -al /home/koranda/.config/sway/menu
+sudo mv /home/koranda/.config/sway/ /home/koranda/.config/sway-menu/
+sudo mv /home/koranda/.config/sway-menu/menu/providers.conf /home/koranda/.config/sway-menu/
+sudo rm -rf /home/koranda/.config/sway-menu/menu/
+sudo cd /etc/sway/
+ls
+pwd
+cd /etc/sway/
+ls
+man sway 
+ls
+hx config 
+ls
+ls -al
+sudo chown root: config 
+ls -al
+cd config.d/
+ls
+bat 20-input.conf 
+bat input 
+ls -al
+sudo chown koranda: *
+ls -al
+hx input 
+ls
+bat input 
+bat 20-input.conf 
+rm 20-input.conf
+sudo rm 20-input.conf
+ls -a 
+ls -al
+mv 10-systemd-cgroups.conf 20-systemd-cgroups.conf
+sudo mv 10-systemd-cgroups.conf 20-systemd-cgroups.conf
+sudo mv 10-systemd-session.conf 20-systemd-session.conf 
+ls -al
+bat visual.conf 
+rm visual.conf
+sudo rm visual.conf
+ls -al
+bat appearence 
+bat applications 
+bat sleep 
+bat output 
+fastfetch 
+hx output 
+mv applications 10-applications
+sudo mv applications 10-applications
+sudo mv appearence 10-appearence 
+sudo mv sleep 10-sleep 
+sudo mv bindings 10-bindings
+sudo mv input 10-input
+sudo mv output 10-output
+ls -al
+bat 95-xdg-desktop-autostart.conf 
+hx 95-xdg-desktop-autostart.conf 
+ls -al
+cd /
+ls
+fzf
+ls
+cd /etc/environment
+cd /etc/
+ls -al
+bat environment 
+man environment 
+ls
+man environment 
+man environ
+ls -al
+cd ..
+ls
+ls -al
+ls -al | bat
+bat .profile 
+ls
+cd /etc/pam.d/
+yazi
+man envz 
+man envsubst 
+man environment.d 
+man environment
+ls -al
+cd ..
+ls -al
+ls -al | less
+ls -al | bat
+ls -al | less
+man environment.d 
+man environ
+sudo hx environment 
+yazi
+man profil 
+man environment.d 
+man systemd-environment-d-generator 
+man proc_pid_environ 
+ls -al | less
+rga
+ls -al | complete 
+carapace -h
+carapace ls -al nushell
+carapace ls -al
+carapace set-env nushell 
+rga
+yazi
+/bin/bash yazi
+man rga
+whereis rga
+bat /usr/bin/rga 
+/usr/bin/rga-fzf-open 
+/usr/bin/rga-fzf
+systemctl show-environment 
+cd xdg-mime 
+ls
+ls | less
+cd ..
+rga-fzf
+xdg-settings 
+xdg-settings --help
+xdg-settings --manual
+xdg-settings get default-web-browser
+man xdg-mime 
+man desktop-file-edit 
+man update-desktop-database 
+update-desktop-database 
+cd /etc/
+bat profile.d/
+cd profile.d/
+ls
+bat ai.sh 
+bat vim-default-editor.csh 
+sudo hx vim-default-editor.sh 
+ls
+mv hx-default-editor hx-default-editor.sh
+sudo mv hx-default-editor hx-default-editor.sh
+sudo rm vim-default-editor.sh
+hx vim-default-editor.csh 
+sudo hx vim-default-editor.csh 
+sudo rm vim-default-editor.csh
+ls -al
+bat which2.csh 
+cd ..
+ls
+systemctl --user disable gammastep
+systemctl --user status gammastep
+ls
+cd sway/
+ls
+bat config 
+cd config.d/
+ls -al
+sudo chown root: *
+sudo chmod 755 *
+ls -al
+cd ..
+ls
+cd config.d/
+ls -al
+cd ..
+xs ..
+cd ..
+cd xdg
+ls
+cd autostart/
+ls
+ls -al
+bat at-spi-dbus-bus.desktop 
+bat geoclue-demo-agent.desktop 
+bat gnome-keyring-pkcs11.desktop 
+bat tracker-miner-fs-3.desktop 
+ls -al
+bat at-spi-dbus-bus.desktop 
+ls | name | bat %i
+ls | "name" | bat %i
+ls | "name" | bat %1
+ls | "name" | bat $i
+ls | "name" | bat $1
+ls | "name" | bat $in
+ls | columns | bat $in
+ls | columns | bat ...$in
+ls | rows | bat ...$in
+ls | column | bat ...$in
+ls | column
+ls | column name
+ls | column == name
+man column
+ls -al
+ls 
+ls | column name="name" | bat ...$in
+ls | column name="name"
+ls | column -C name="name"
+ls | table
+ls -l 
+ls | column
+man col
+man nu
+man table
+man columns
+table --help
+table --help | less
+table --help | open
+table --help | show
+table --help | lines
+table --help | stream
+table --help | feed
+table --help | bat
+where --help | bat
+list --help
+list 
+filter --help
+row --help
+rows --help
+ls
+ls -n
+ls --short-names 
+^ls --short-names 
+ls --short-names -du
+ls --short-names -d
+ls -sd
+cd ..
+ls
+cd foot/
+ls
+cd ..
+rm foot/
+sudo rm foot/
+ls
+sudo rm -rf foot/
+ls
+cd waybar/
+ls
+ls -al
+cd ..
+l
+ls
+cd Xwayland-session.d/
+ls
+bat 00-at-spi 
+cd ..
+ls
+cd autostart/
+ls
+cd ..
+ls
+cd rpmlint/
+ls
+cd ..
+ls
+cd systemd/
+ls
+cd ..
+ls
+cd /usr/local/share/applications/
+ls
+bat mimeinfo.cache 
+hx mimeinfo.cache 
+ls
+cd ..
+ls
+cd info/
+ls
+cd ..
+ls
+cd share/
+ls
+cd applications/
+ls
+cd ..
+ls
+PATH
+echo PATH
+echo $PATH
+echo $env.PATH
+cd /usr/sbin/
+ls
+ls | bat
+systemctl --user get-default 
+cd /
+yazi
+sudo reboot
+/usr/libexec/sway-systemd/locale1-xkb-config --help
+systemctl --user enable --now waybar
+swaymsg -t get_inputs
+localectl status
+systemctl --user show-environment 
+swaybar_command
+yazi
+sudo reboot
+sysz
+sudo reboot
+hello
+yazi
+cd .cargo/bin/
+sudo rm /usr/bin/yazi 
+bluemoon
+bluemoon -h
+ls
+sudo mv bluetui /usr/bin/bluetui
+rls
+sudo mv yazi /usr/bin/yazi
+sudo mv ya /usr/bin/ya
+sudo mv spotify_player /usr/bin/
+ls -al
+cd /usr/bin/
+ls -al
+ls -al | bat
+ls -al
+spotify_player 
+sysz
+-l
+sysz
+code-insiders /etc/xdg/waybar/
+sysz
+sysz 
+sudo reboot
+sysz
+sudo dnf install mangl
+cargo install mantui --locked
+tldr
+sudo dnf install tldr
+tldr sway
+man sway
+man 5 sway
+man 2 sway
+man 5 sway
+man sway-bar
+man waybar
+man waybar-styles
+man waybar-mpd 
+man waybar-wireplumber 
+man waybar-custom 
+sysz
+sudo reboot
+cd xdg/waybar/
+sudo rm player.py 
+sudo dnf install fontawesome5-fonts
+swaybar 
+man sway-bar
+man waybar-menu 
+man waybar-workspaces
+man waybar-sway-workspaces 
+sysz
+systemctl --user status waybar
+sysz
+nu help
+help
+man waybar-sway-workspaces 
+sysz
+hx /etc/xdg/waybar/style.css 
+hx /etc/xdg/waybar/config.jsonc  
+sudo mv /home/koranda/config.jsonc /etc/xdg/waybar/
+cd /etc/xdg/waybar/
+bat config.jsonc 
+sysz
+sudo hx style.css 
+sysz
+sudo hx config.jsonc 
+sysz
+sudo reboot
+sysz
+journalctl --user -xeu waybar
+ls
+rm `sway(5(`
+cd /etc/xdg/waybar/
+ls
+sudo hx style.css 
+sysz
+powerupp
+systemd-ac-power
+upower -i 
+upower -i /org/freedesktop/UPower/devices/battery_macsmc_battery 
+wl-paste
+ollama status
+ollama --version 
+ollama
+ollama list
+ollama ps
+ollama run gemma3
+ollama list 
+systemctl status ollama
+journalctl -xeu ollama
+sudo journalctl -xeu ollama
+ollama start 
+ollama help 
+sudo journalctl
+sudo reboot
+ollama ls
+sudo systemctl status ollama
+ollama help 
+sudo systemctl start ollama
+ssysz
+sysz
+ollama ls
+ollama run gemma3
+ollama show 
+ollama show gemma3:1b
+ollama ps
+ollama ls
+ollama gemma3:1b
+ollama ps
+fastfetch 
+ollama run gemma3:1b
+ls
+ollama run gemma3:1b
+ai 
+systemctl --user show-environment 
+config nu
+sudo reboot
+sudo systemctl --user show-environment 
+config nu
+systemctl --user show-environment 
+ollama run gemma3:1b
+ai
+systemctl --user show-environment 
+sudo mv xdg/autostart/at-spi-dbus-bus.desktop xdg/autostart/at-spi-dbus-bus.desktop.disabled 
+sudo mv xdg/autostart/at-spi-dbus-bus.desktop.disabled xdg/autostart/at-spi-dbus-bus.desktop
+/bin/bash yazi
+rg
+rga-fzf 
+sudo cd /
+sudo rga-fzf
+ls
+cd /
+ls
+$env.config | table -e | bat -P
+config use-colors
+config flatten 
+config nu
+code-insiders /etc/xdg/waybar/
+hx /etc/xdg/waybar/style.css 
+pwd
+wl-paste | write grovbox-color-table
+wl-paste | to json 
+wl-paste
+code-insiders /etc/xdg/waybar/
+code-insiders 
+pwd
+code-insiders .
+code-insiders /etc/xdg/waybar/
+bat gruvbox-color-theme
+table --help
+open gruvbox-color-theme | table
+open gruvbox-color-theme | table | bat
+parse gruvbox-color-theme
+open gruvbox-color-theme | parse
+ls
+rm asahi-diagnose-20250328-002957.txt
+rm gruvbox-color-theme
+ls
+git clone wl-paste
+git clone (wl-paste)
+ls
+cd gruvbox/
+ls
+./gruvbox_256palette.sh
+sudo reboot
+cd gruvbox/
+sudo ./gruvbox_256palette.sh 
+sudo exec gruvbox_256palette.sh 
+exec gruvbox_256palette.sh 
+ls -al
+sudo chmod 755 gr*
+ls -al
+sudo ./gruvbox_256palette.sh 
+sudo ./gruvbox_256palette.sh | echo
+sudo sh ./gruvbox_256palette.sh | echo
+sudo /bin/bash gruvbox_256palette.sh | echo
+sudo /bin/bash gruvbox_256palette.sh 
+sudo reboot
+code-insiders /
+sudo reboot
+nu cal
+cal
+sudo hx /etc/xdg/waybar/config.jsonc 
+sudo reboot
+man tuigreet
+bat /etc/issue
+code-insiders /
+firefox 
+mkdir -p .config/alacritty/themes
+mkdir .config/alacritty/themes
+wl-paste 
+wl-paste | exec
+(wl-paste)
+$(wl-paste)
+wl-paste | echo
+wl-paste
+wl-paste | exec $in
+git clone https://github.com/alacritty/alacritty-theme
+ls
+sudo mv alacritty-theme/* .config/alacritty/themes/
+cd .config/alacritty/themes/
+ls
+/bin/bash print_colors.sh
+cd themes/
+ls
+cd ..
+/bin/bash print_colors.sh -h
+cd..
+cd ..
+ls
+ls -al
+wl-paste | save alacritty.toml
+bat alacritty.toml 
+edit alacritty.toml
+hx alacritty.toml
+cal
+soijdijoji
+config use-colors 
+config use-colors -h 
+cd ..
+ls
+cd koranda/
+ls
+cd alacritty-theme/
+ls
+cd ..
+ls
+rm -rf alacritty-theme/
+ls
+config_data 
+config use-colors 
+ls
+config use-colors -h
+$env.config | table -e | bat -P
+ls
+cd .config/
+ls
+cd enchant/
+ls
+cd ..
+ls
+rm -rf enchant/
+ls
+rm -rf gammastep/
+cd dconf/
+ls
+bat user 
+cd ..
+l
+cd ..
+ls
+cd .config/
+config --help 
+config nu
+ls
+cd .config/
+ls
+cd menu/
+ls
+cd config.d/
+ls
+cd ..
+ls
+cd .config/alacritty/themes/
+ls
+cd themes/
+bat gruvbox_dark.toml 
+config use-colors 
+config use-colors -n
+config use-colors -h
+sudo dnf install vivid
+cargo install vivid --locked
+sudo mv .cargo/bin/vivid /usr/bin/
+vivid
+vivid preview gruvbox-dark 
+config nu
+ls -al
+config use-colors 
+config use-colors -h
+firefox 
+vivid generate gruvbox-dark 
+vivid generate --help gruvbox-dark
+cd /etc/environment
+bat /etc/environment 
+rga-fzf /
+su
+vivid generate gruvbox-dark 
+vivid generate gruvbox-dark --help 
+sudo systemctl set-environment LS_COLORS
+sudo systemctl set-environment LS_COLORS (vivid generate gruvbox-dark)
+sudo systemctl set-environment LS_COLORS=(vivid generate gruvbox-dark)
+systemctl --user show-environment 
+cd /etc/grub.d/ 
+ls
+cd /usr/share/applications/
+ls
+ls -al
+cd /home/koranda/
+l
+ls
+mkdir applications
+cd applications/
+ls /usr/share/applications/
+hx providers.py
+yazi
+sudo yazi
+cd /home/koranda/
+ls
+cd .config/yazi/
+ls
+cd flavors/
+ls
+code-insiders 
+sudo shutdown 
+sudo shutdown -h --now
+sudo shutdown -h -now
+sudo shutdown -h
+sudo shutdown -P 
+sudo shutdown -P now
+sudo systemctl disable NetworkManager-wait-online.service
+sudo reboot
+fastfetch 
+ollama run gemma3:1b
+ping google.com
+sudo dnf remove ueberzygpp
+sudo dnf remove ueberzugpp
+sudo dnf clean
+ollama start
+ollama ls 
+ollama run gemma3:1b
+btm -h
+btm --dot-marker
+sudo systemctl show-environment 
+sudo systemctl --user show-environment 
+bat /etc/environment 
+sudo reboot
+sudo hx /etc/greetd/config.toml 
+sudo reboot
+code-insiders 
+sudo hx /etc/xdg/waybar/config.jsonc 
+sudo hx /etc/xdg/waybar/style.css 
+systemctl --user restart waybar.service 
+sudo hx /etc/xdg/waybar/config.jsonc 
+systemctl --user restart waybar.service 
+firefox 
+sudo btm --dot-marker
+code-insiders 
+sudo hx /etc/xdg/waybar/style.css 
+systemctl --user restart waybar.service 
+sudo hx /etc/xdg/waybar/style.css 
+systemctl --user restart waybar.service 
+sudo hx /etc/xdg/waybar/style.css 
+systemctl --user restart waybar.service 
+sudo hx /etc/xdg/waybar/style.css 
+systemctl --user restart waybar.service 
+sudo shutdown -P now
+code-insiders 
+firee
+sudo journalctl -r
+cat /usr/share/applications/code-insiders.desktop 
+config nu 
+hx /usr/share/applications/code-insiders.desktop 
+sudo yazi
+firefox 
+cat /usr/share/applications/code-insiders.desktop 
+sudo journalctl -r
+auditctl -h
+auditctl -D
+sudo auditctl -D
+auditctl -l
+sudo auditctl -l
+audisp
+man audisp
+sudo dnf reinstall auditctl
+rga-fzf 
+sudo rga-fzf /
+sudo hx /etc/default/grub 
+suo reboot
+sudo reboot
+sudo hc /etc/xdg/waybar/config.jsonc 
+sudo hx /etc/xdg/waybar/config.jsonc 
+sudo reboot
+systemctl --user status waybar.service 
+journalctl -xeu waybar
+sudo journalctl -xeu waybar
+sudo hx /etc/xdg/waybar/config.jsonc 
+systemctl restart waybar.service 
+systemctl --user restart waybar
+sudo hx /etc/xdg/waybar/config.jsonc 
+systemctl --user restart waybar
+sudo shutdown -P now
+mann waybar
+man waybar
+wireplumber 
+firefox
+fire
+sudo hx /etc/xdg/waybar/config.jsonc 
+systemctl --user restart waybar
+cd ~
+ls
+cd .config/
+ls
+cd menu/
+ls
+code-insiders 
+nmtui
+btm --dot-marker
+firefox 
+btm --dot_marker
+nmtui
+ping google.com
+journalctl -xeu waybar
+journalctl
+journalctl -r
+ifup
+ifup wlp1s0f0
+ip wlp1s0f0
+ip
+ip -a
+ip a
+ping google.com
+dns
+nslookup google.com
+sudo systemd-resolve --flush-caches
+ping google.com
+sysz
+man systemd-resolved.service 
+sysz
+ping google.com
+resolvectl 
+resolvectl -h
+resolvectl status
+resolvectl resolve google.com
+resolvectl query google.com
+resolvectl set wlp1s0f0 1.1.1.1
+resolvectl dns wlp1s0f0 1.1.1.1
+ping google.com
+resolvectl status
+dns
+dnsdomainname 
+dnsdomainname -h
+dnsdomainname -a
+code-insiders 
+code-insiders /home/koranda/.config/menu/
+code-insiders .
+run /usr/share/applications/org.mozilla.firefox.desktop
+start /usr/share/applications/org.mozilla.firefox.desktop
+/usr/share/applications/org.mozilla.firefox.desktop
+sway-launcher-desktop list-entries
+/bin/bash sway-launcher-desktop list-entries
+/bin/bash sway-launcher-desktop
+/bin/bash sway-launcher-desktop -help
+/bin/bash sway-launcher-desktop -h
+sway-launcher-desktop -h
+sway-launcher-desktop --help
+/usr/bin/sway-launcher-desktop list-entries
+cd /usr/share/applications/
+ls
+sudo ln -s /usr/share/applications/Alacritty.desktop /home/koranda/applications/
+sudo ln -s /usr/share/applications/Helix.desktop /home/koranda/applications/
+sudo ln -s /usr/share/applications/code-insiders.desktop  /home/koranda/applications/
+sudo ln -s /usr/share/applications/net.thunderbird.Thunderbird.desktop  /home/koranda/applications/
+sudo ln -s /usr/share/applications/org.mozilla.firefox.desktop   /home/koranda/applications/
+ls
+cd /home/koranda/
+ls
+cd hosting/
+ls
+cd ..
+cd koranda/
+cd applications/
+ls
+man sway-launcher-desktop
+sway-launcher-desktop
+sway-launcher-desktop help
+sway-launcher-desktop list-entries
+sway-launcher-desktop list-entries Alacritty.desktop
+sway-launcher-desktop list-entries
+exho sway-launcher-desktop list-entries
+echo sway-launcher-desktop list-entries
+/bin/bash /usr/bin/sway-launcher-desktop list-entries
+/bin/bash /usr/bin/sway-launcher-desktop
+sudo sway-launcher-desktop list-entries
+sudo sway-launcher-desktop help
+sudo sway-launcher-desktop help | open /home/koranda/entries
+sudo sway-launcher-desktop help | open /home/koranda/entries -append
+sudo sway-launcher-desktop help | write
+sudo sway-launcher-desktop help | write --help
+sudo sway-launcher-desktop help | open --help
+ls
+cd ~
+touch entries
+sudo sway-launcher-desktop help | open /home/koranda/entries
+bat entries 
+sudo sway-launcher-desktop list-entries | open /home/koranda/entries
+bat entries 
+sudo sway-launcher-desktop list-entries | open /home/koranda/entries --append
+sudo sway-launcher-desktop list-entries | write /home/koranda/entries --append
+sudo sway-launcher-desktop list-entries | write /home/koranda/entries
+ls
+ls -al
+bat "is the preview of {1}'" 
+rm `is the preview of {1}'`
+sudo sway-launcher-desktop list-entries
+sudo sway-launcher-desktop list
+sudo sway-launcher-desktop list-commands
+sudo sway-launcher-desktop list-entries
+sudo sway-launcher-desktop list-entries | wl-copy
+wl-paste
+pwd
+cat .config/menu/conf.d/desktop 
+ls
+cd .config/menu/conf.d/
+bat .config/menu/conf.d/desktop 
+enche -h
+echo -e
+echo -help
+echo -h
+^echo -h
+^echo --heolp
+^echo --help
+hx desktop 
+cd /usr/share/applications/
+ls -al
+echo $env.TERM
+echo $env.COLORTERM
+echo $env.XDG_SESSION_TYPE
+echo $env.LS_COLORS
+bat /etc/sway/config 
+config nu 
+echo $env.TERMINAL_COMMAND
+ls
+ls -n
+ls -S
+ls -D
+ls -s
+ls -du
+ls -m
+ls -f
+alacritty -e cal
+alacritty -e
+alacritty -e ls
+sysz
+alacritty -s
+alacritty -a
+Helix
+sysz
+journalctl --user -r
+sudo systemctl restart waybar
+systemctl restart waybar
+systemctl --user restart waybar
+swaymsg -t get_tree
+sudo reboot
+systemctl --user restart waybar
+systemctl --user stop waybar
+systemctl --user start waybar
+systemctl --user restart waybar
+sudo reboot
+ssh -N -D sebasmk@login.uio.no
+ssh -N -D 10143 sebasmk@login.uio.no
+typeracer
+sudo dnf install ubraille
+cd /usr/share/fonts/
+ls
+cd open-sans/
+ls
+cd ..
+ls
+mkfir ubraille
+mkdir ubraille
+sudo mkdir ubraille
+ls
+cd ubraille/
+ls
+sudo mv /home/koranda/Downloads/UBraille.ttf .
+ls
+cd ..
+cd urw-base35/
+ls
+ls -al
+cd ..
+cd ubraille/
+ls /al
+ls -al
+sudo chown root: *
+ls -al
+fc-cache -v
+sudo fc-cache -v
+fastfetch 
+alacritty --class widget -e fastfetch 
+alacritty --class widget -a fastfetch 
+sudo reboot
+code-insiders -g --help
+echo wl-paste 
+echo (wl-paste)
+commandline 
+commandline edit 
+commandline wl-paste
+echo (wl-paste)
+echo (wl-paste) | command
+echo (wl-paste) | edit
+echo (wl-paste) | commandline edit
+wl-paste | commandline edit
+echo (wl-paste) | open
+echo (wl-paste)
+ssh-keygen -t ed25519 -C "sebastian@koranda.no"
+cd .ssh
+ls
+bat vps.pub 
+cat vps.pub 
+cat vps.pub | wl-cope
+cat vps.pub | wl-copy
+wl-paste
+hx known_hosts 
+ls
+touch config
+pwd
+hx config 
+cd ~
+ssh vps
+cd .ssh
+bat known_hosts 
+hx config 
+ssh cps
+ssh vps
+hx config 
+ssh vps
+bat known_hosts 
+hx known_hosts 
+hx config 
+ssh vps
+hx config 
+cd .ssh
+ls -al
+ls
+rm vps
+rm vps.pub
+ls -al
+ssh keygen -t ed25519
+ssh-keygen -t ed25519
+ls -al
+ssh-copy-id -i id_ed25519.pub koranda@147.93.59.253
+ls
+ssh-copy-id -i /home/koranda/.ssh/id_ed25519.pub koranda@147.93.59.253
+ssh-copy-id -i /home/koranda/.ssh/id_ed25519 koranda@147.93.59.253
+ssh-copy-id -i /home/koranda/.ssh/id_ed25519 -p 65002 koranda@147.93.59.253
+hx config 
+ssh vps
+ls -al
+hx config 
+calcurse-caldav 
+calcurse-caldav --help
+man calcurse-caldav
+test
+alacritty --help
+alacritty --option 
+alacritty --option --help
+man alacritty 
+cal
+sudo reboot
+ssh -x vps 
+code-insiders --folder-uri
+code-insiders --folder-uri "vscode-remote://ssh-remote+vps"
+hx .config/menu/providers.conf 
+code-insiders --help
+sudo touch code-remote.desktop
+code-insiders --folder-uri "vscode-remote://ssh-remote+vps" 
+swaymsg -t get_tree
+code-insiders --help
+swaymsg -t get_tree
+sudo touch code-remote
+ls /al
+ls -al
+sudo chmod 755 code-remote
+code-remote
+sudo hx /usr/bin/code-remote 
+code-remote
+wtype
+sudo dnf install wtype
+wtype
+wtype -k XF86Copy
+wtype --help
+wtype -h
+man wtype
+sudo reboot
+fastfetch 
+yazi
+man wl-clipboard 
+sudo reboot
+swaymsg -t get_input
+swaymsg -t get_inputs
+swaymsg -t get_seats 
+swaymsg -t get_marks 
+man swaymsg 
+man sway-input
+swaymsg -t get_clipboard
+swaymsg get_clipboard
+swaymsg -s 
+swaymsg -m 
+libinput
+libinput debug-events
+sudo libinput debug-events
+sudo wl-copy -
+sudo wl-copy -p
+wl-copy -p
+wl-copy
+wl-copy -pc
+wl-paste
+wl-paste -p
+wl-copy -c
+wl-paste
+wl-copy -h
+wl-copy stdin
+wl-paste
+wl-copy --help
+wl-paste -o
+wl-copy -o
+wlrctl
+sudo dnf install wlrctl
+man wlrctl
+wlrctl -h
+wlrctl
+swaymsg wl-copy
+swaymsg --type 
+sudo dnf install clipmon
+cargo install --locked clipmon
+clipmon
+cargo remove --locked clipmon
+cargo uninstall clipmon
+wl-paste | git clone $in
+ls
+cd clipmon/
+ls
+cargo build
+ls
+clipmon
+clipmam
+clipman
+cargo uninstall clipmon
+clipmon
+systemctl --user status clipmon
+systemctl status clipmon
+sudo systemctl status clipmon
+ls
+bat notes 
+cd ..
+rm -rf clipmon/
+clipman 
+man clipman
+clipman show-history
+clipman restore
+clipman pick
+clipman
+cd .local/share/
+ls
+PRIMARY
+wl-copy -p
+wtype 
+wtype -h
+man wtype
+sudo reboot
+cat entries 
+ip a
+showkey
+showkey -a
+localectl status
+localectl set-x11-keymap no applealu_iso nodeadkeys
+localectl status
+showkey -a
+sudo reboot
+swaymsg -t get_tree
+code-insiders --help
+ls
+cd config.d/
+ls -al
+sudo chmod 777 10-applications 
+rxit
+exit
+sudo reboot
+cd /usr/bin/
+sudo rm code-remote 
+ls -al
+cd config.d/
+ls -al
+swaymsg -t get_tree
+swaymsg -t get_tree -h
+swaymsg -t get_tree -p
+sudo reboot
+wlrctl -h
+wlrctl
+wlrctl -h
+man wlrctl 
+man wlrctl window
+wlrctl window
+wlrctl window -h
+man wlrctl
+wlrctl list
+wlrctl window list
+swaymsg -t get_tree
+code-insiders --help
+swaymsg -t get_tree
+code-insiders --help
+man code-insiders
+code-insiders --class
+code-insiders --class remote
+swaymsg -t get_tree
+swaymsg -h
+swaymsg workspace 7
+swaymsg workspace 8
+sudo reboot
+sudo touch desktop-splash.service
+sway-launcher-desktop autostart
+sway-launcher-desktop 
+sway-launcher-desktop --help
+sway-launcher-desktop help
+sudo dnf install gsettings-desktop-schemas
+sudo rm -rf *
+sudo touch splash.desktop
+man systemd-xdg-autostart-generator 
+man autostart
+man xdg-autostart
+man xdg-autostart-generator
+man xdg-desktop-portal-wlr 
+systemd-xdg-autostart-generator(8)
+man systemd-xdg-autostart-generator 
+systemd-xdg-autostart-generator
+yazi
+/usr/lib/systemd/user-generators/systemd-xdg-autostart-generator
+/usr/lib/systemd/user-generators/systemd-xdg-autostart-generator -h
+/usr/lib/systemd/user-generators/systemd-xdg-autostart-generator help
+/usr/lib/systemd/user-generators/systemd-xdg-autostart-generator --help
+man systemd-xdg-autostart-generator 
+sudo reboot
+sysz
+sudo reboot
+sysz
+journalctl --user desktop-splash
+sudo hx /etc/xdg/autostart/splash.desktop 
+journalctl --user -r
+sysz
+cd /etc/systemd/user/
+ls
+rm desktop-splash.service
+sudo rm desktop-splash.service 
+sudo reboot
+sysz
+systemctl --user show-environment 
+man systemd-xdg-autostart
+sysz
+systemctl --user list-dependencies xdg-desktop-autostart.target 
+systemctl --user list-dependencies sway-xdg-autostart.target 
+man xdg-autostart
+man xdg-autostart-generator
+man systemd-xdg-autostart-generator 
+sudo hx /etc/xdg/autostart/splash.desktop 
+sudo reboot
+sysz
+systemctl --user status xdg-desktop-autostart.target
+systemctl --user list-dependencies xdg-desktop-autostart.target 
+systemctl --user list-dependencies sway-xdg-autostart.target 
+yazi
+mkdir .config/autostart
+sudo mv /etc/xdg/autostart/splash.desktop .config/autostart/
+systemctl --user show-environment 
+sudo reboot
+sysz
+hx .config/autostart/splash.desktop 
+cd .config/autostart/
+ls -al
+sudo chown koranda: splash.desktop 
+ls -al
+sudo chmod 755 splash.desktop 
+hx splash.desktop 
+sudo reboot
+swaymsg exec alacritty
+swaymsg exec alacritty --class widget
+swaymsg exec "alacrittty --class widget"
+swaymsg "exec alacrittty --class widget"
+swaymsg exec alacritty -e fastfetch
+swaymsg exec "alacritty -e fastfetch"
+swaymsg workspace 1; exec "alacritty -e fastfetch"
+swaymsg "workspace 1; exec alacritty -e fastfetch"
+swaymsg "workspace 1 && exec alacritty -e fastfetch"
+swaymsg "exec alacritty -e fastfetch"
+swaymsg "exec alacritty -e fastfetch &&"
+swaymsg "exec /usr/bin/alacritty -e fastfetch;"
+swaymsg "exec /usr/bin/alacritty -e fastfetch"
+swaymsg "exec /usr/bin/alacritty"
+swaymsg "exec /usr/bin/alacritty -a fastfetch"
+swaymsg "exec /usr/bin/alacritty"
+man swaymsg
+man 5 sway
+swaymsg exec "alacritty"
+swaymsg exec "alacritty -e fastfetch"
+swaymsg exec "alacritty -e fastfetch &"
+swaymsg exec "alacritty -e fastfetch ;"
+swaymsg exec "alacritty -e fastfetch " ;
+swaymsg exec "alacritty -e fastfetch " &
+swaymsg exec "alacritty -e fastfetch " %F
+swaymsg exec "alacritty -e fastfetch " %U
+alacritty -h
+alacritty --hold -e fastfetch
+alacritty --class widget --hold -e fastfetch
+sysz
+man sway
+man 5 sway
+sudo reboot
+sysz
+alacritty -h
+ls
+rm -rf entries
+cd build/
+ls
+cd ..
+ls
+mkdir finance
+cd finance/
+mc
+echo 0fa77ac8224c407e903ad5a786209966 | .env
+echo 0fa77ac8224c407e903ad5a786209966 | open .env
+bat .env 
+echo 0fa77ac8224c407e903ad5a786209966 | append .env
+ls
+touch .env
+echo 0fa77ac8224c407e903ad5a786209966 | .env
+echo 0fa77ac8224c407e903ad5a786209966 | open .env --append
+echo 0fa77ac8224c407e903ad5a786209966 | save .env
+echo 0fa77ac8224c407e903ad5a786209966 | save .env -f
+bat .env 
+curl --location --request POST https://api.sparebank1.no/oauth/token --header 'Content-Type: application/x-www-form-urlencoded' --data-urlencode 'client_id=a5570d3a-e422-4519-bcf1-e214edf30c58' --data-urlencode 'client_secret=' --data-urlencode 'code=0fa77ac8224c407e903ad5a786209966' --data-urlencode 'grant_type=authorization_code' --data-urlencode 'state=8483770' --data-urlencode 'redirect_uri=https://localhost'
+cd Downloads/
+mv Faktura_ISSIX Faktura_ISSIX.pdf
+yzai
+/usr/share/code-insiders/code-insiders --profile Remote --folder-uri "vscode-remote://ssh-remote+vps" --enable-features=UseOzonePlatform,WaylandWindowDecorations --ozone-platform-hint=auto
+sudo reboot
+fastfetch --show-errors 
+ssh vps
+cd /usr/share/code-insiders/
+LS
+ls -al
+./code-insiders
+./code-insiders --profile Remote --folder-uri "vscode-remote://ssh-remote+vps"
+./code-insiders --folder-uri "vscode-remote://ssh-remote+vps"
+./code-insiders --folder-uri "vscode-remote://ssh-remote+vps/"
+chsh -s /bin/bash
+sudo reboot
+cargo install material --locked --features=cli
+sudo cargo install material --locked --features=cli
+lxcb
+pwd
+host
+ip a
+sudo dnf install material
+cargo update
+sudo reboot
+man sway
+man 5 sway
+man sway-output
+man 5 sway-output
+man swaybg 
+man swayidle 
+man sway-ipc 
+man sway-output 
+wtype
+wtype -M ctrl
+wtype -M ctrl -P c
+wtype -h
+wtype --help
+/usr/bin/wtype -M ctrl -P c
+man wtype
+man wtype -M
+/usr/bin/wtype -M ctrl -k c
+/usr/bin/wtype -m ctrl -k c
+/usr/bin/wtype -M ctrl -k c
+man 5 sway
+man 5 sway/input
+man 5 sway-input
+swaymsg -t get_inputs 
+seat
+man 5 sway-input
+man sway-input
+man xkeyboard-config 
+man swaymsg -t get_seat
+man swaymsg -t get_seats
+man swaymsg get_seats
+swaymsg get_seats
+swaymsg -t get_seats
+swaymsg -t seat seat0
+swaymsg -t seat "seat0"
+swaymsg -t seat "seat0" keyboard
+swaymsg -t keyboard
+swaymsg -t cursor
+sudo reboot
+wev
+sudo dnf install wev
+wev
+sudo hx /usr/share/X11/xkb/symbols/no 
+sudo reboot
+localectl status
+sudo hx /usr/share/X11/xkb/symbols/macintosh_vndr/no 
+sudo reboot
+bat /etc/xdg/waybar/style.css 
+hx /etc/xdg/waybar/style.css 
+sudo hx /etc/greetd/config.toml 
+sudo reboot
+sudo hx /etc/greetd/config.toml 
+sudo reboot
+bat /etc/xdg/waybar/style.css 
+sudo hx /etc/greetd/config.toml 
+sudo reboot
+man tuigreet
+sudo hx /etc/greetd/config.toml 
+sudo reboot
+bat /tmp/tuigreet.log 
+vivid preview gruvbox-dark 
+vivid themes 
+man vivid
+vivid generate gruvbox-dark
+systemctl --user show-environment 
+config nu 
+cd /etc/pam.d/
+ls
+cd greetd
+bat greetd 
+bat greetd-greeter 
+bat /etc/environment
+dircolors 
+dircolors --help 
+man bash-color-prompt
+bat /usr/share/doc/bash-color-prompt/README.md 
+vivid generate gruvbox-dark
+sudo hx /etc/profile.d/sh.local 
+hx /etc/profile 
+ls -al
+sudo reboot
+ls -al
+systemctl --user show-environment 
+sudo systemctl show-environment 
+/bin/bash
+ls
+config nu
+hx /etc/profile 
+cd /etc/profile.d/
+ls
+env 
+ls -al
+man profile
+man profile.d
+man environment 
+sudo hx /etc/profile.d/sh.local 
+man environment
+man environ
+man environment.d 
+man systemd-environment-d-generator 
+vivid generate gruvbox-dark
+systemctl set-environment LS_COLORS
+vivid generate gruvbox-dark
+sudo systemctl set-environment LS_COLORS='*~=3;38;2;102;92;84:bd=1;38;2;215;153;33:ca=0;38;2;40;40;40;48;2;204;36;29:cd=3;38;2;250;189;47:di=0;38;2;69;133;136:do=1;38;2;211;134;155:ex=1;38;2;184;187;38:fi=0;38;2;235;219;178;48;2;40;40;40:ln=3;38;2;131;165;152:mh=1:mi=0;38;2;235;219;178;48;2;251;73;52:no=0;38;2;235;219;178;48;2;40;40;40:or=3;38;2;251;73;52:ow=1;38;2;184;187;38:pi=0;38;2;177;98;134:rs=0:sg=0;38;2;40;40;40;48;2;214;93;14:so=1;38;2;177;98;134:st=0;38;2;235;219;178;48;2;69;133;136:su=0;38;2;235;219;178;48;2;204;36;29:tw=3;38;2;235;219;178;48;2;69;133;136:*.1=0;38;2;215;153;33:*.a=1;38;2;184;187;38:*.c=0;38;2;152;151;26:*.d=0;38;2;152;151;26:*.h=0;38;2;152;151;26:*.m=0;38;2;152;151;26:*.o=3;38;2;102;92;84:*.p=0;38;2;152;151;26:*.r=0;38;2;152;151;26:*.t=0;38;2;152;151;26:*.v=0;38;2;152;151;26:*.z=0;38;2;214;93;14:*.7z=0;38;2;214;93;14:*.ai=0;38;2;104;157;106:*.as=0;38;2;152;151;26:*.bc=3;38;2;102;92;84:*.bz=0;38;2;214;93;14:*.cc=0;38;2;152;151;26:*.cp=0;38;2;152;151;26:*.cr=0;38;2;152;151;26:*.cs=0;38;2;152;151;26:*.db=0;38;2;214;93;14:*.di=0;38;2;152;151;26:*.el=0;38;2;152;151;26:*.ex=0;38;2;152;151;26:*.fs=0;38;2;152;151;26:*.go=0;38;2;152;151;26:*.gv=0;38;2;152;151;26:*.gz=0;38;2;214;93;14:*.ha=0;38;2;152;151;26:*.hh=0;38;2;152;151;26:*.hi=3;38;2;102;92;84:*.hs=0;38;2;152;151;26:*.jl=0;38;2;152;151;26:*.js=0;38;2;152;151;26:*.ko=1;38;2;184;187;38:*.kt=0;38;2;152;151;26:*.la=3;38;2;102;92;84:*.ll=0;38;2;152;151;26:*.lo=3;38;2;102;92;84:*.ma=0;38;2;104;157;106:*.mb=0;38;2;104;157;106:*.md=0;38;2;215;153;33:*.mk=3;38;2;184;187;38:*.ml=0;38;2;152;151;26:*.mn=0;38;2;152;151;26:*.nb=0;38;2;152;151;26:*.nu=0;38;2;152;151;26:*.pl=0;38;2;152;151;26:*.pm=0;38;2;152;151;26:*.pp=0;38;2;152;151;26:*.ps=1;38;2;131;165;152:*.py=0;38;2;152;151;26:*.rb=0;38;2;152;151;26:*.rm=1;38;2;142;192;124:*.rs=0;38;2;152;151;26:*.sh=0;38;2;152;151;26:*.so=1;38;2;184;187;38:*.td=0;38;2;152;151;26:*.ts=0;38;2;152;151;26:*.ui=0;38;2;250;189;47:*.vb=0;38;2;152;151;26:*.wv=0;38;2;104;157;106:*.xz=0;38;2;214;93;14:*FAQ=1;38;2;250;189;47:*.3ds=0;38;2;104;157;106:*.3fr=0;38;2;104;157;106:*.3mf=0;38;2;104;157;106:*.adb=0;38;2;152;151;26:*.ads=0;38;2;152;151;26:*.aif=0;38;2;104;157;106:*.amf=0;38;2;104;157;106:*.ape=0;38;2;104;157;106:*.apk=0;38;2;214;93;14:*.ari=0;38;2;104;157;106:*.arj=0;38;2;214;93;14:*.arw=0;38;2;104;157;106:*.asa=0;38;2;152;151;26:*.asm=0;38;2;152;151;26:*.aux=3;38;2;102;92;84:*.avi=1;38;2;142;192;124:*.awk=0;38;2;152;151;26:*.bag=0;38;2;214;93;14:*.bak=3;38;2;102;92;84:*.bat=1;38;2;184;187;38:*.bay=0;38;2;104;157;106:*.bbl=3;38;2;102;92;84:*.bcf=3;38;2;102;92;84:*.bib=0;38;2;250;189;47:*.bin=1;38;2;254;128;25:*.blg=3;38;2;102;92;84:*.bmp=0;38;2;104;157;106:*.bsh=0;38;2;152;151;26:*.bst=0;38;2;250;189;47:*.bz2=0;38;2;214;93;14:*.c++=0;38;2;152;151;26:*.cap=0;38;2;104;157;106:*.cfg=0;38;2;250;189;47:*.cgi=0;38;2;152;151;26:*.clj=0;38;2;152;151;26:*.com=1;38;2;184;187;38:*.cpp=0;38;2;152;151;26:*.cr2=0;38;2;104;157;106:*.cr3=0;38;2;104;157;106:*.crw=0;38;2;104;157;106:*.css=0;38;2;152;151;26:*.csv=0;38;2;215;153;33:*.csx=0;38;2;152;151;26:*.cxx=0;38;2;152;151;26:*.dae=0;38;2;104;157;106:*.dcr=0;38;2;104;157;106:*.dcs=0;38;2;104;157;106:*.deb=0;38;2;214;93;14:*.def=0;38;2;152;151;26:*.dll=1;38;2;184;187;38:*.dmg=1;38;2;254;128;25:*.dng=0;38;2;104;157;106:*.doc=1;38;2;131;165;152:*.dot=0;38;2;152;151;26:*.dox=3;38;2;184;187;38:*.dpr=0;38;2;152;151;26:*.drf=0;38;2;104;157;106:*.dxf=0;38;2;104;157;106:*.eip=0;38;2;104;157;106:*.elc=0;38;2;152;151;26:*.elm=0;38;2;152;151;26:*.epp=0;38;2;152;151;26:*.eps=0;38;2;104;157;106:*.erf=0;38;2;104;157;106:*.erl=0;38;2;152;151;26:*.exe=1;38;2;184;187;38:*.exr=0;38;2;104;157;106:*.exs=0;38;2;152;151;26:*.fbx=0;38;2;104;157;106:*.fff=0;38;2;104;157;106:*.fls=3;38;2;102;92;84:*.flv=1;38;2;142;192;124:*.fnt=0;38;2;104;157;106:*.fon=0;38;2;104;157;106:*.fsi=0;38;2;152;151;26:*.fsx=0;38;2;152;151;26:*.gif=0;38;2;104;157;106:*.git=3;38;2;102;92;84:*.gpr=0;38;2;104;157;106:*.gvy=0;38;2;152;151;26:*.h++=0;38;2;152;151;26:*.hda=0;38;2;104;157;106:*.hip=0;38;2;104;157;106:*.hpp=0;38;2;152;151;26:*.htc=0;38;2;152;151;26:*.htm=0;38;2;215;153;33:*.hxx=0;38;2;152;151;26:*.ico=0;38;2;104;157;106:*.ics=1;38;2;131;165;152:*.idx=3;38;2;102;92;84:*.igs=0;38;2;104;157;106:*.iiq=0;38;2;104;157;106:*.ilg=3;38;2;102;92;84:*.img=1;38;2;254;128;25:*.inc=0;38;2;152;151;26:*.ind=3;38;2;102;92;84:*.ini=0;38;2;250;189;47:*.inl=0;38;2;152;151;26:*.ino=0;38;2;152;151;26:*.ipp=0;38;2;152;151;26:*.iso=1;38;2;254;128;25:*.jar=0;38;2;214;93;14:*.jpg=0;38;2;104;157;106:*.jsx=0;38;2;152;151;26:*.jxl=0;38;2;104;157;106:*.k25=0;38;2;104;157;106:*.kdc=0;38;2;104;157;106:*.kex=1;38;2;131;165;152:*.kra=0;38;2;104;157;106:*.kts=0;38;2;152;151;26:*.log=3;38;2;102;92;84:*.ltx=0;38;2;152;151;26:*.lua=0;38;2;152;151;26:*.m3u=0;38;2;104;157;106:*.m4a=0;38;2;104;157;106:*.m4v=1;38;2;142;192;124:*.mdc=0;38;2;104;157;106:*.mef=0;38;2;104;157;106:*.mid=0;38;2;104;157;106:*.mir=0;38;2;152;151;26:*.mkv=1;38;2;142;192;124:*.mli=0;38;2;152;151;26:*.mos=0;38;2;104;157;106:*.mov=1;38;2;142;192;124:*.mp3=0;38;2;104;157;106:*.mp4=1;38;2;142;192;124:*.mpg=1;38;2;142;192;124:*.mrw=0;38;2;104;157;106:*.msi=0;38;2;214;93;14:*.mtl=0;38;2;104;157;106:*.nef=0;38;2;104;157;106:*.nim=0;38;2;152;151;26:*.nix=0;38;2;250;189;47:*.nrw=0;38;2;104;157;106:*.obj=0;38;2;104;157;106:*.obm=0;38;2;104;157;106:*.odp=1;38;2;131;165;152:*.ods=1;38;2;131;165;152:*.odt=1;38;2;131;165;152:*.ogg=0;38;2;104;157;106:*.ogv=1;38;2;142;192;124:*.orf=0;38;2;104;157;106:*.org=0;38;2;215;153;33:*.otf=0;38;2;104;157;106:*.otl=0;38;2;104;157;106:*.out=3;38;2;102;92;84:*.pas=0;38;2;152;151;26:*.pbm=0;38;2;104;157;106:*.pcx=0;38;2;104;157;106:*.pdf=1;38;2;131;165;152:*.pef=0;38;2;104;157;106:*.pgm=0;38;2;104;157;106:*.php=0;38;2;152;151;26:*.pid=3;38;2;102;92;84:*.pkg=0;38;2;214;93;14:*.png=0;38;2;104;157;106:*.pod=0;38;2;152;151;26:*.ppm=0;38;2;104;157;106:*.pps=1;38;2;131;165;152:*.ppt=1;38;2;131;165;152:*.pro=3;38;2;184;187;38:*.ps1=0;38;2;152;151;26:*.psd=0;38;2;104;157;106:*.ptx=0;38;2;104;157;106:*.pxn=0;38;2;104;157;106:*.pyc=3;38;2;102;92;84:*.pyd=3;38;2;102;92;84:*.pyo=3;38;2;102;92;84:*.qoi=0;38;2;104;157;106:*.r3d=0;38;2;104;157;106:*.raf=0;38;2;104;157;106:*.rar=0;38;2;214;93;14:*.raw=0;38;2;104;157;106:*.rpm=0;38;2;214;93;14:*.rst=0;38;2;215;153;33:*.rtf=1;38;2;131;165;152:*.rw2=0;38;2;104;157;106:*.rwl=0;38;2;104;157;106:*.rwz=0;38;2;104;157;106:*.sbt=0;38;2;152;151;26:*.sql=0;38;2;152;151;26:*.sr2=0;38;2;104;157;106:*.srf=0;38;2;104;157;106:*.srw=0;38;2;104;157;106:*.stl=0;38;2;104;157;106:*.stp=0;38;2;104;157;106:*.sty=3;38;2;102;92;84:*.svg=0;38;2;104;157;106:*.swf=1;38;2;142;192;124:*.swp=3;38;2;102;92;84:*.sxi=1;38;2;131;165;152:*.sxw=1;38;2;131;165;152:*.tar=0;38;2;214;93;14:*.tbz=0;38;2;214;93;14:*.tcl=0;38;2;152;151;26:*.tex=0;38;2;152;151;26:*.tga=0;38;2;104;157;106:*.tgz=0;38;2;214;93;14:*.tif=0;38;2;104;157;106:*.tml=0;38;2;250;189;47:*.tmp=3;38;2;102;92;84:*.toc=3;38;2;102;92;84:*.tsx=0;38;2;152;151;26:*.ttf=0;38;2;104;157;106:*.txt=0;38;2;235;219;178:*.typ=0;38;2;215;153;33:*.usd=0;38;2;104;157;106:*.vcd=1;38;2;254;128;25:*.vim=0;38;2;152;151;26:*.vob=1;38;2;142;192;124:*.vsh=0;38;2;152;151;26:*.wav=0;38;2;104;157;106:*.wma=0;38;2;104;157;106:*.wmv=1;38;2;142;192;124:*.wrl=0;38;2;104;157;106:*.x3d=0;38;2;104;157;106:*.x3f=0;38;2;104;157;106:*.xlr=1;38;2;131;165;152:*.xls=1;38;2;131;165;152:*.xml=0;38;2;215;153;33:*.xmp=0;38;2;250;189;47:*.xpm=0;38;2;104;157;106:*.xvf=0;38;2;104;157;106:*.yml=0;38;2;250;189;47:*.zig=0;38;2;152;151;26:*.zip=0;38;2;214;93;14:*.zsh=0;38;2;152;151;26:*.zst=0;38;2;214;93;14:*TODO=0;38;2;184;187;38:*hgrc=3;38;2;184;187;38:*.avif=0;38;2;104;157;106:*.bash=0;38;2;152;151;26:*.braw=0;38;2;104;157;106:*.conf=0;38;2;250;189;47:*.dart=0;38;2;152;151;26:*.data=0;38;2;104;157;106:*.diff=0;38;2;152;151;26:*.docx=1;38;2;131;165;152:*.epub=1;38;2;131;165;152:*.fish=0;38;2;152;151;26:*.flac=0;38;2;104;157;106:*.h264=1;38;2;142;192;124:*.hack=0;38;2;152;151;26:*.heif=0;38;2;104;157;106:*.hgrc=3;38;2;184;187;38:*.html=0;38;2;215;153;33:*.iges=0;38;2;104;157;106:*.info=0;38;2;215;153;33:*.java=0;38;2;152;151;26:*.jpeg=0;38;2;104;157;106:*.json=0;38;2;250;189;47:*.less=0;38;2;152;151;26:*.lisp=0;38;2;152;151;26:*.lock=3;38;2;102;92;84:*.make=3;38;2;184;187;38:*.mojo=0;38;2;152;151;26:*.mpeg=1;38;2;142;192;124:*.nims=0;38;2;152;151;26:*.opus=0;38;2;104;157;106:*.orig=3;38;2;102;92;84:*.pptx=1;38;2;131;165;152:*.prql=0;38;2;152;151;26:*.psd1=0;38;2;152;151;26:*.psm1=0;38;2;152;151;26:*.purs=0;38;2;152;151;26:*.raku=0;38;2;152;151;26:*.rlib=3;38;2;102;92;84:*.sass=0;38;2;152;151;26:*.scad=0;38;2;152;151;26:*.scss=0;38;2;152;151;26:*.step=0;38;2;104;157;106:*.tbz2=0;38;2;214;93;14:*.tiff=0;38;2;104;157;106:*.toml=0;38;2;250;189;47:*.usda=0;38;2;104;157;106:*.usdc=0;38;2;104;157;106:*.usdz=0;38;2;104;157;106:*.webm=1;38;2;142;192;124:*.webp=0;38;2;104;157;106:*.woff=0;38;2;104;157;106:*.xbps=0;38;2;214;93;14:*.xlsx=1;38;2;131;165;152:*.yaml=0;38;2;250;189;47:*stdin=3;38;2;102;92;84:*v.mod=3;38;2;184;187;38:*.blend=0;38;2;104;157;106:*.cabal=0;38;2;152;151;26:*.cache=3;38;2;102;92;84:*.class=3;38;2;102;92;84:*.cmake=3;38;2;184;187;38:*.ctags=3;38;2;102;92;84:*.dylib=1;38;2;184;187;38:*.dyn_o=3;38;2;102;92;84:*.gcode=0;38;2;152;151;26:*.ipynb=0;38;2;152;151;26:*.mdown=0;38;2;215;153;33:*.patch=0;38;2;152;151;26:*.rmeta=3;38;2;102;92;84:*.scala=0;38;2;152;151;26:*.shtml=0;38;2;215;153;33:*.swift=0;38;2;152;151;26:*.toast=1;38;2;254;128;25:*.woff2=0;38;2;104;157;106:*.xhtml=0;38;2;215;153;33:*Icon\r=3;38;2;102;92;84:*LEGACY=1;38;2;250;189;47:*NOTICE=1;38;2;250;189;47:*README=1;38;2;250;189;47:*go.mod=3;38;2;184;187;38:*go.sum=3;38;2;102;92;84:*passwd=0;38;2;250;189;47:*shadow=0;38;2;250;189;47:*stderr=3;38;2;102;92;84:*stdout=3;38;2;102;92;84:*.bashrc=0;38;2;152;151;26:*.config=0;38;2;250;189;47:*.dyn_hi=3;38;2;102;92;84:*.flake8=3;38;2;184;187;38:*.gradle=0;38;2;152;151;26:*.groovy=0;38;2;152;151;26:*.ignore=3;38;2;184;187;38:*.matlab=0;38;2;152;151;26:*.nimble=0;38;2;152;151;26:*COPYING=3;38;2;235;219;178:*INSTALL=1;38;2;250;189;47:*LICENCE=3;38;2;235;219;178:*LICENSE=3;38;2;235;219;178:*TODO.md=0;38;2;184;187;38:*VERSION=1;38;2;250;189;47:*.alembic=0;38;2;104;157;106:*.desktop=0;38;2;250;189;47:*.gemspec=3;38;2;184;187;38:*.mailmap=3;38;2;184;187;38:*Doxyfile=3;38;2;184;187;38:*Makefile=3;38;2;184;187;38:*TODO.txt=0;38;2;184;187;38:*setup.py=3;38;2;184;187;38:*.DS_Store=3;38;2;102;92;84:*.cmake.in=3;38;2;184;187;38:*.fdignore=3;38;2;184;187;38:*.kdevelop=3;38;2;184;187;38:*.markdown=0;38;2;215;153;33:*.rgignore=3;38;2;184;187;38:*.tfignore=3;38;2;184;187;38:*CHANGELOG=1;38;2;250;189;47:*COPYRIGHT=3;38;2;235;219;178:*README.md=1;38;2;250;189;47:*bun.lockb=3;38;2;102;92;84:*configure=3;38;2;184;187;38:*.gitconfig=3;38;2;184;187;38:*.gitignore=3;38;2;184;187;38:*.localized=3;38;2;102;92;84:*.scons_opt=3;38;2;102;92;84:*.timestamp=3;38;2;102;92;84:*CODEOWNERS=3;38;2;184;187;38:*Dockerfile=0;38;2;250;189;47:*INSTALL.md=1;38;2;250;189;47:*README.txt=1;38;2;250;189;47:*SConscript=3;38;2;184;187;38:*SConstruct=3;38;2;184;187;38:*.cirrus.yml=0;38;2;131;165;152:*.gitmodules=3;38;2;184;187;38:*.synctex.gz=3;38;2;102;92;84:*.travis.yml=0;38;2;131;165;152:*INSTALL.txt=1;38;2;250;189;47:*LICENSE-MIT=3;38;2;235;219;178:*MANIFEST.in=3;38;2;184;187;38:*Makefile.am=3;38;2;184;187;38:*Makefile.in=3;38;2;102;92;84:*.applescript=0;38;2;152;151;26:*.fdb_latexmk=3;38;2;102;92;84:*.webmanifest=0;38;2;250;189;47:*CHANGELOG.md=1;38;2;250;189;47:*CONTRIBUTING=1;38;2;250;189;47:*CONTRIBUTORS=1;38;2;250;189;47:*appveyor.yml=0;38;2;131;165;152:*configure.ac=3;38;2;184;187;38:*.bash_profile=0;38;2;152;151;26:*.clang-format=3;38;2;184;187;38:*.editorconfig=3;38;2;184;187;38:*CHANGELOG.txt=1;38;2;250;189;47:*.gitattributes=3;38;2;184;187;38:*.gitlab-ci.yml=0;38;2;131;165;152:*CMakeCache.txt=3;38;2;102;92;84:*CMakeLists.txt=3;38;2;184;187;38:*LICENSE-APACHE=3;38;2;235;219;178:*pyproject.toml=3;38;2;184;187;38:*CODE_OF_CONDUCT=1;38;2;250;189;47:*CONTRIBUTING.md=1;38;2;250;189;47:*CONTRIBUTORS.md=1;38;2;250;189;47:*.sconsign.dblite=3;38;2;102;92;84:*CONTRIBUTING.txt=1;38;2;250;189;47:*CONTRIBUTORS.txt=1;38;2;250;189;47:*requirements.txt=3;38;2;184;187;38:*package-lock.json=3;38;2;102;92;84:*CODE_OF_CONDUCT.md=1;38;2;250;189;47:*.CFUserTextEncoding=3;38;2;102;92;84:*CODE_OF_CONDUCT.txt=1;38;2;250;189;47:*azure-pipelines.yml=0;38;2;131;165;152'
+sudo systemctl show-environment 
+man systemctl
+man systemctl show_env
+ls -al
+man systemctl show_env
+sudo systemctl show_env
+sudo systemctl show-environment 
+sudo systemctl set-environment LS_COLORS= *~=3;38;2;102;92;84:bd=1;38;2;215;153;33:ca=0;38;2;40;40;40;48;2;204;36;29:cd=3;38;2;250;189;47:di=0;38;2;69;133;136:do=1;38;2;211;134;155:ex=1;38;2;184;187;38:fi=0;38;2;235;219;178;48;2;40;40;40:ln=3;38;2;131;165;152:mh=1:mi=0;38;2;235;219;178;48;2;251;73;52:no=0;38;2;235;219;178;48;2;40;40;40:or=3;38;2;251;73;52:ow=1;38;2;184;187;38:pi=0;38;2;177;98;134:rs=0:sg=0;38;2;40;40;40;48;2;214;93;14:so=1;38;2;177;98;134:st=0;38;2;235;219;178;48;2;69;133;136:su=0;38;2;235;219;178;48;2;204;36;29:tw=3;38;2;235;219;178;48;2;69;133;136:*.1=0;38;2;215;153;33:*.a=1;38;2;184;187;38:*.c=0;38;2;152;151;26:*.d=0;38;2;152;151;26:*.h=0;38;2;152;151;26:*.m=0;38;2;152;151;26:*.o=3;38;2;102;92;84:*.p=0;38;2;152;151;26:*.r=0;38;2;152;151;26:*.t=0;38;2;152;151;26:*.v=0;38;2;152;151;26:*.z=0;38;2;214;93;14:*.7z=0;38;2;214;93;14:*.ai=0;38;2;104;157;106:*.as=0;38;2;152;151;26:*.bc=3;38;2;102;92;84:*.bz=0;38;2;214;93;14:*.cc=0;38;2;152;151;26:*.cp=0;38;2;152;151;26:*.cr=0;38;2;152;151;26:*.cs=0;38;2;152;151;26:*.db=0;38;2;214;93;14:*.di=0;38;2;152;151;26:*.el=0;38;2;152;151;26:*.ex=0;38;2;152;151;26:*.fs=0;38;2;152;151;26:*.go=0;38;2;152;151;26:*.gv=0;38;2;152;151;26:*.gz=0;38;2;214;93;14:*.ha=0;38;2;152;151;26:*.hh=0;38;2;152;151;26:*.hi=3;38;2;102;92;84:*.hs=0;38;2;152;151;26:*.jl=0;38;2;152;151;26:*.js=0;38;2;152;151;26:*.ko=1;38;2;184;187;38:*.kt=0;38;2;152;151;26:*.la=3;38;2;102;92;84:*.ll=0;38;2;152;151;26:*.lo=3;38;2;102;92;84:*.ma=0;38;2;104;157;106:*.mb=0;38;2;104;157;106:*.md=0;38;2;215;153;33:*.mk=3;38;2;184;187;38:*.ml=0;38;2;152;151;26:*.mn=0;38;2;152;151;26:*.nb=0;38;2;152;151;26:*.nu=0;38;2;152;151;26:*.pl=0;38;2;152;151;26:*.pm=0;38;2;152;151;26:*.pp=0;38;2;152;151;26:*.ps=1;38;2;131;165;152:*.py=0;38;2;152;151;26:*.rb=0;38;2;152;151;26:*.rm=1;38;2;142;192;124:*.rs=0;38;2;152;151;26:*.sh=0;38;2;152;151;26:*.so=1;38;2;184;187;38:*.td=0;38;2;152;151;26:*.ts=0;38;2;152;151;26:*.ui=0;38;2;250;189;47:*.vb=0;38;2;152;151;26:*.wv=0;38;2;104;157;106:*.xz=0;38;2;214;93;14:*FAQ=1;38;2;250;189;47:*.3ds=0;38;2;104;157;106:*.3fr=0;38;2;104;157;106:*.3mf=0;38;2;104;157;106:*.adb=0;38;2;152;151;26:*.ads=0;38;2;152;151;26:*.aif=0;38;2;104;157;106:*.amf=0;38;2;104;157;106:*.ape=0;38;2;104;157;106:*.apk=0;38;2;214;93;14:*.ari=0;38;2;104;157;106:*.arj=0;38;2;214;93;14:*.arw=0;38;2;104;157;106:*.asa=0;38;2;152;151;26:*.asm=0;38;2;152;151;26:*.aux=3;38;2;102;92;84:*.avi=1;38;2;142;192;124:*.awk=0;38;2;152;151;26:*.bag=0;38;2;214;93;14:*.bak=3;38;2;102;92;84:*.bat=1;38;2;184;187;38:*.bay=0;38;2;104;157;106:*.bbl=3;38;2;102;92;84:*.bcf=3;38;2;102;92;84:*.bib=0;38;2;250;189;47:*.bin=1;38;2;254;128;25:*.blg=3;38;2;102;92;84:*.bmp=0;38;2;104;157;106:*.bsh=0;38;2;152;151;26:*.bst=0;38;2;250;189;47:*.bz2=0;38;2;214;93;14:*.c++=0;38;2;152;151;26:*.cap=0;38;2;104;157;106:*.cfg=0;38;2;250;189;47:*.cgi=0;38;2;152;151;26:*.clj=0;38;2;152;151;26:*.com=1;38;2;184;187;38:*.cpp=0;38;2;152;151;26:*.cr2=0;38;2;104;157;106:*.cr3=0;38;2;104;157;106:*.crw=0;38;2;104;157;106:*.css=0;38;2;152;151;26:*.csv=0;38;2;215;153;33:*.csx=0;38;2;152;151;26:*.cxx=0;38;2;152;151;26:*.dae=0;38;2;104;157;106:*.dcr=0;38;2;104;157;106:*.dcs=0;38;2;104;157;106:*.deb=0;38;2;214;93;14:*.def=0;38;2;152;151;26:*.dll=1;38;2;184;187;38:*.dmg=1;38;2;254;128;25:*.dng=0;38;2;104;157;106:*.doc=1;38;2;131;165;152:*.dot=0;38;2;152;151;26:*.dox=3;38;2;184;187;38:*.dpr=0;38;2;152;151;26:*.drf=0;38;2;104;157;106:*.dxf=0;38;2;104;157;106:*.eip=0;38;2;104;157;106:*.elc=0;38;2;152;151;26:*.elm=0;38;2;152;151;26:*.epp=0;38;2;152;151;26:*.eps=0;38;2;104;157;106:*.erf=0;38;2;104;157;106:*.erl=0;38;2;152;151;26:*.exe=1;38;2;184;187;38:*.exr=0;38;2;104;157;106:*.exs=0;38;2;152;151;26:*.fbx=0;38;2;104;157;106:*.fff=0;38;2;104;157;106:*.fls=3;38;2;102;92;84:*.flv=1;38;2;142;192;124:*.fnt=0;38;2;104;157;106:*.fon=0;38;2;104;157;106:*.fsi=0;38;2;152;151;26:*.fsx=0;38;2;152;151;26:*.gif=0;38;2;104;157;106:*.git=3;38;2;102;92;84:*.gpr=0;38;2;104;157;106:*.gvy=0;38;2;152;151;26:*.h++=0;38;2;152;151;26:*.hda=0;38;2;104;157;106:*.hip=0;38;2;104;157;106:*.hpp=0;38;2;152;151;26:*.htc=0;38;2;152;151;26:*.htm=0;38;2;215;153;33:*.hxx=0;38;2;152;151;26:*.ico=0;38;2;104;157;106:*.ics=1;38;2;131;165;152:*.idx=3;38;2;102;92;84:*.igs=0;38;2;104;157;106:*.iiq=0;38;2;104;157;106:*.ilg=3;38;2;102;92;84:*.img=1;38;2;254;128;25:*.inc=0;38;2;152;151;26:*.ind=3;38;2;102;92;84:*.ini=0;38;2;250;189;47:*.inl=0;38;2;152;151;26:*.ino=0;38;2;152;151;26:*.ipp=0;38;2;152;151;26:*.iso=1;38;2;254;128;25:*.jar=0;38;2;214;93;14:*.jpg=0;38;2;104;157;106:*.jsx=0;38;2;152;151;26:*.jxl=0;38;2;104;157;106:*.k25=0;38;2;104;157;106:*.kdc=0;38;2;104;157;106:*.kex=1;38;2;131;165;152:*.kra=0;38;2;104;157;106:*.kts=0;38;2;152;151;26:*.log=3;38;2;102;92;84:*.ltx=0;38;2;152;151;26:*.lua=0;38;2;152;151;26:*.m3u=0;38;2;104;157;106:*.m4a=0;38;2;104;157;106:*.m4v=1;38;2;142;192;124:*.mdc=0;38;2;104;157;106:*.mef=0;38;2;104;157;106:*.mid=0;38;2;104;157;106:*.mir=0;38;2;152;151;26:*.mkv=1;38;2;142;192;124:*.mli=0;38;2;152;151;26:*.mos=0;38;2;104;157;106:*.mov=1;38;2;142;192;124:*.mp3=0;38;2;104;157;106:*.mp4=1;38;2;142;192;124:*.mpg=1;38;2;142;192;124:*.mrw=0;38;2;104;157;106:*.msi=0;38;2;214;93;14:*.mtl=0;38;2;104;157;106:*.nef=0;38;2;104;157;106:*.nim=0;38;2;152;151;26:*.nix=0;38;2;250;189;47:*.nrw=0;38;2;104;157;106:*.obj=0;38;2;104;157;106:*.obm=0;38;2;104;157;106:*.odp=1;38;2;131;165;152:*.ods=1;38;2;131;165;152:*.odt=1;38;2;131;165;152:*.ogg=0;38;2;104;157;106:*.ogv=1;38;2;142;192;124:*.orf=0;38;2;104;157;106:*.org=0;38;2;215;153;33:*.otf=0;38;2;104;157;106:*.otl=0;38;2;104;157;106:*.out=3;38;2;102;92;84:*.pas=0;38;2;152;151;26:*.pbm=0;38;2;104;157;106:*.pcx=0;38;2;104;157;106:*.pdf=1;38;2;131;165;152:*.pef=0;38;2;104;157;106:*.pgm=0;38;2;104;157;106:*.php=0;38;2;152;151;26:*.pid=3;38;2;102;92;84:*.pkg=0;38;2;214;93;14:*.png=0;38;2;104;157;106:*.pod=0;38;2;152;151;26:*.ppm=0;38;2;104;157;106:*.pps=1;38;2;131;165;152:*.ppt=1;38;2;131;165;152:*.pro=3;38;2;184;187;38:*.ps1=0;38;2;152;151;26:*.psd=0;38;2;104;157;106:*.ptx=0;38;2;104;157;106:*.pxn=0;38;2;104;157;106:*.pyc=3;38;2;102;92;84:*.pyd=3;38;2;102;92;84:*.pyo=3;38;2;102;92;84:*.qoi=0;38;2;104;157;106:*.r3d=0;38;2;104;157;106:*.raf=0;38;2;104;157;106:*.rar=0;38;2;214;93;14:*.raw=0;38;2;104;157;106:*.rpm=0;38;2;214;93;14:*.rst=0;38;2;215;153;33:*.rtf=1;38;2;131;165;152:*.rw2=0;38;2;104;157;106:*.rwl=0;38;2;104;157;106:*.rwz=0;38;2;104;157;106:*.sbt=0;38;2;152;151;26:*.sql=0;38;2;152;151;26:*.sr2=0;38;2;104;157;106:*.srf=0;38;2;104;157;106:*.srw=0;38;2;104;157;106:*.stl=0;38;2;104;157;106:*.stp=0;38;2;104;157;106:*.sty=3;38;2;102;92;84:*.svg=0;38;2;104;157;106:*.swf=1;38;2;142;192;124:*.swp=3;38;2;102;92;84:*.sxi=1;38;2;131;165;152:*.sxw=1;38;2;131;165;152:*.tar=0;38;2;214;93;14:*.tbz=0;38;2;214;93;14:*.tcl=0;38;2;152;151;26:*.tex=0;38;2;152;151;26:*.tga=0;38;2;104;157;106:*.tgz=0;38;2;214;93;14:*.tif=0;38;2;104;157;106:*.tml=0;38;2;250;189;47:*.tmp=3;38;2;102;92;84:*.toc=3;38;2;102;92;84:*.tsx=0;38;2;152;151;26:*.ttf=0;38;2;104;157;106:*.txt=0;38;2;235;219;178:*.typ=0;38;2;215;153;33:*.usd=0;38;2;104;157;106:*.vcd=1;38;2;254;128;25:*.vim=0;38;2;152;151;26:*.vob=1;38;2;142;192;124:*.vsh=0;38;2;152;151;26:*.wav=0;38;2;104;157;106:*.wma=0;38;2;104;157;106:*.wmv=1;38;2;142;192;124:*.wrl=0;38;2;104;157;106:*.x3d=0;38;2;104;157;106:*.x3f=0;38;2;104;157;106:*.xlr=1;38;2;131;165;152:*.xls=1;38;2;131;165;152:*.xml=0;38;2;215;153;33:*.xmp=0;38;2;250;189;47:*.xpm=0;38;2;104;157;106:*.xvf=0;38;2;104;157;106:*.yml=0;38;2;250;189;47:*.zig=0;38;2;152;151;26:*.zip=0;38;2;214;93;14:*.zsh=0;38;2;152;151;26:*.zst=0;38;2;214;93;14:*TODO=0;38;2;184;187;38:*hgrc=3;38;2;184;187;38:*.avif=0;38;2;104;157;106:*.bash=0;38;2;152;151;26:*.braw=0;38;2;104;157;106:*.conf=0;38;2;250;189;47:*.dart=0;38;2;152;151;26:*.data=0;38;2;104;157;106:*.diff=0;38;2;152;151;26:*.docx=1;38;2;131;165;152:*.epub=1;38;2;131;165;152:*.fish=0;38;2;152;151;26:*.flac=0;38;2;104;157;106:*.h264=1;38;2;142;192;124:*.hack=0;38;2;152;151;26:*.heif=0;38;2;104;157;106:*.hgrc=3;38;2;184;187;38:*.html=0;38;2;215;153;33:*.iges=0;38;2;104;157;106:*.info=0;38;2;215;153;33:*.java=0;38;2;152;151;26:*.jpeg=0;38;2;104;157;106:*.json=0;38;2;250;189;47:*.less=0;38;2;152;151;26:*.lisp=0;38;2;152;151;26:*.lock=3;38;2;102;92;84:*.make=3;38;2;184;187;38:*.mojo=0;38;2;152;151;26:*.mpeg=1;38;2;142;192;124:*.nims=0;38;2;152;151;26:*.opus=0;38;2;104;157;106:*.orig=3;38;2;102;92;84:*.pptx=1;38;2;131;165;152:*.prql=0;38;2;152;151;26:*.psd1=0;38;2;152;151;26:*.psm1=0;38;2;152;151;26:*.purs=0;38;2;152;151;26:*.raku=0;38;2;152;151;26:*.rlib=3;38;2;102;92;84:*.sass=0;38;2;152;151;26:*.scad=0;38;2;152;151;26:*.scss=0;38;2;152;151;26:*.step=0;38;2;104;157;106:*.tbz2=0;38;2;214;93;14:*.tiff=0;38;2;104;157;106:*.toml=0;38;2;250;189;47:*.usda=0;38;2;104;157;106:*.usdc=0;38;2;104;157;106:*.usdz=0;38;2;104;157;106:*.webm=1;38;2;142;192;124:*.webp=0;38;2;104;157;106:*.woff=0;38;2;104;157;106:*.xbps=0;38;2;214;93;14:*.xlsx=1;38;2;131;165;152:*.yaml=0;38;2;250;189;47:*stdin=3;38;2;102;92;84:*v.mod=3;38;2;184;187;38:*.blend=0;38;2;104;157;106:*.cabal=0;38;2;152;151;26:*.cache=3;38;2;102;92;84:*.class=3;38;2;102;92;84:*.cmake=3;38;2;184;187;38:*.ctags=3;38;2;102;92;84:*.dylib=1;38;2;184;187;38:*.dyn_o=3;38;2;102;92;84:*.gcode=0;38;2;152;151;26:*.ipynb=0;38;2;152;151;26:*.mdown=0;38;2;215;153;33:*.patch=0;38;2;152;151;26:*.rmeta=3;38;2;102;92;84:*.scala=0;38;2;152;151;26:*.shtml=0;38;2;215;153;33:*.swift=0;38;2;152;151;26:*.toast=1;38;2;254;128;25:*.woff2=0;38;2;104;157;106:*.xhtml=0;38;2;215;153;33:*Icon\r=3;38;2;102;92;84:*LEGACY=1;38;2;250;189;47:*NOTICE=1;38;2;250;189;47:*README=1;38;2;250;189;47:*go.mod=3;38;2;184;187;38:*go.sum=3;38;2;102;92;84:*passwd=0;38;2;250;189;47:*shadow=0;38;2;250;189;47:*stderr=3;38;2;102;92;84:*stdout=3;38;2;102;92;84:*.bashrc=0;38;2;152;151;26:*.config=0;38;2;250;189;47:*.dyn_hi=3;38;2;102;92;84:*.flake8=3;38;2;184;187;38:*.gradle=0;38;2;152;151;26:*.groovy=0;38;2;152;151;26:*.ignore=3;38;2;184;187;38:*.matlab=0;38;2;152;151;26:*.nimble=0;38;2;152;151;26:*COPYING=3;38;2;235;219;178:*INSTALL=1;38;2;250;189;47:*LICENCE=3;38;2;235;219;178:*LICENSE=3;38;2;235;219;178:*TODO.md=0;38;2;184;187;38:*VERSION=1;38;2;250;189;47:*.alembic=0;38;2;104;157;106:*.desktop=0;38;2;250;189;47:*.gemspec=3;38;2;184;187;38:*.mailmap=3;38;2;184;187;38:*Doxyfile=3;38;2;184;187;38:*Makefile=3;38;2;184;187;38:*TODO.txt=0;38;2;184;187;38:*setup.py=3;38;2;184;187;38:*.DS_Store=3;38;2;102;92;84:*.cmake.in=3;38;2;184;187;38:*.fdignore=3;38;2;184;187;38:*.kdevelop=3;38;2;184;187;38:*.markdown=0;38;2;215;153;33:*.rgignore=3;38;2;184;187;38:*.tfignore=3;38;2;184;187;38:*CHANGELOG=1;38;2;250;189;47:*COPYRIGHT=3;38;2;235;219;178:*README.md=1;38;2;250;189;47:*bun.lockb=3;38;2;102;92;84:*configure=3;38;2;184;187;38:*.gitconfig=3;38;2;184;187;38:*.gitignore=3;38;2;184;187;38:*.localized=3;38;2;102;92;84:*.scons_opt=3;38;2;102;92;84:*.timestamp=3;38;2;102;92;84:*CODEOWNERS=3;38;2;184;187;38:*Dockerfile=0;38;2;250;189;47:*INSTALL.md=1;38;2;250;189;47:*README.txt=1;38;2;250;189;47:*SConscript=3;38;2;184;187;38:*SConstruct=3;38;2;184;187;38:*.cirrus.yml=0;38;2;131;165;152:*.gitmodules=3;38;2;184;187;38:*.synctex.gz=3;38;2;102;92;84:*.travis.yml=0;38;2;131;165;152:*INSTALL.txt=1;38;2;250;189;47:*LICENSE-MIT=3;38;2;235;219;178:*MANIFEST.in=3;38;2;184;187;38:*Makefile.am=3;38;2;184;187;38:*Makefile.in=3;38;2;102;92;84:*.applescript=0;38;2;152;151;26:*.fdb_latexmk=3;38;2;102;92;84:*.webmanifest=0;38;2;250;189;47:*CHANGELOG.md=1;38;2;250;189;47:*CONTRIBUTING=1;38;2;250;189;47:*CONTRIBUTORS=1;38;2;250;189;47:*appveyor.yml=0;38;2;131;165;152:*configure.ac=3;38;2;184;187;38:*.bash_profile=0;38;2;152;151;26:*.clang-format=3;38;2;184;187;38:*.editorconfig=3;38;2;184;187;38:*CHANGELOG.txt=1;38;2;250;189;47:*.gitattributes=3;38;2;184;187;38:*.gitlab-ci.yml=0;38;2;131;165;152:*CMakeCache.txt=3;38;2;102;92;84:*CMakeLists.txt=3;38;2;184;187;38:*LICENSE-APACHE=3;38;2;235;219;178:*pyproject.toml=3;38;2;184;187;38:*CODE_OF_CONDUCT=1;38;2;250;189;47:*CONTRIBUTING.md=1;38;2;250;189;47:*CONTRIBUTORS.md=1;38;2;250;189;47:*.sconsign.dblite=3;38;2;102;92;84:*CONTRIBUTING.txt=1;38;2;250;189;47:*CONTRIBUTORS.txt=1;38;2;250;189;47:*requirements.txt=3;38;2;184;187;38:*package-lock.json=3;38;2;102;92;84:*CODE_OF_CONDUCT.md=1;38;2;250;189;47:*.CFUserTextEncoding=3;38;2;102;92;84:*CODE_OF_CONDUCT.txt=1;38;2;250;189;47:*azure-pipelines.yml=0;38;2;131;165;152
+sudo systemctl set-environment LS_COLORS=*~=3;38;2;102;92;84:bd=1;38;2;215;153;33:ca=0;38;2;40;40;40;48;2;204;36;29:cd=3;38;2;250;189;47:di=0;38;2;69;133;136:do=1;38;2;211;134;155:ex=1;38;2;184;187;38:fi=0;38;2;235;219;178;48;2;40;40;40:ln=3;38;2;131;165;152:mh=1:mi=0;38;2;235;219;178;48;2;251;73;52:no=0;38;2;235;219;178;48;2;40;40;40:or=3;38;2;251;73;52:ow=1;38;2;184;187;38:pi=0;38;2;177;98;134:rs=0:sg=0;38;2;40;40;40;48;2;214;93;14:so=1;38;2;177;98;134:st=0;38;2;235;219;178;48;2;69;133;136:su=0;38;2;235;219;178;48;2;204;36;29:tw=3;38;2;235;219;178;48;2;69;133;136:*.1=0;38;2;215;153;33:*.a=1;38;2;184;187;38:*.c=0;38;2;152;151;26:*.d=0;38;2;152;151;26:*.h=0;38;2;152;151;26:*.m=0;38;2;152;151;26:*.o=3;38;2;102;92;84:*.p=0;38;2;152;151;26:*.r=0;38;2;152;151;26:*.t=0;38;2;152;151;26:*.v=0;38;2;152;151;26:*.z=0;38;2;214;93;14:*.7z=0;38;2;214;93;14:*.ai=0;38;2;104;157;106:*.as=0;38;2;152;151;26:*.bc=3;38;2;102;92;84:*.bz=0;38;2;214;93;14:*.cc=0;38;2;152;151;26:*.cp=0;38;2;152;151;26:*.cr=0;38;2;152;151;26:*.cs=0;38;2;152;151;26:*.db=0;38;2;214;93;14:*.di=0;38;2;152;151;26:*.el=0;38;2;152;151;26:*.ex=0;38;2;152;151;26:*.fs=0;38;2;152;151;26:*.go=0;38;2;152;151;26:*.gv=0;38;2;152;151;26:*.gz=0;38;2;214;93;14:*.ha=0;38;2;152;151;26:*.hh=0;38;2;152;151;26:*.hi=3;38;2;102;92;84:*.hs=0;38;2;152;151;26:*.jl=0;38;2;152;151;26:*.js=0;38;2;152;151;26:*.ko=1;38;2;184;187;38:*.kt=0;38;2;152;151;26:*.la=3;38;2;102;92;84:*.ll=0;38;2;152;151;26:*.lo=3;38;2;102;92;84:*.ma=0;38;2;104;157;106:*.mb=0;38;2;104;157;106:*.md=0;38;2;215;153;33:*.mk=3;38;2;184;187;38:*.ml=0;38;2;152;151;26:*.mn=0;38;2;152;151;26:*.nb=0;38;2;152;151;26:*.nu=0;38;2;152;151;26:*.pl=0;38;2;152;151;26:*.pm=0;38;2;152;151;26:*.pp=0;38;2;152;151;26:*.ps=1;38;2;131;165;152:*.py=0;38;2;152;151;26:*.rb=0;38;2;152;151;26:*.rm=1;38;2;142;192;124:*.rs=0;38;2;152;151;26:*.sh=0;38;2;152;151;26:*.so=1;38;2;184;187;38:*.td=0;38;2;152;151;26:*.ts=0;38;2;152;151;26:*.ui=0;38;2;250;189;47:*.vb=0;38;2;152;151;26:*.wv=0;38;2;104;157;106:*.xz=0;38;2;214;93;14:*FAQ=1;38;2;250;189;47:*.3ds=0;38;2;104;157;106:*.3fr=0;38;2;104;157;106:*.3mf=0;38;2;104;157;106:*.adb=0;38;2;152;151;26:*.ads=0;38;2;152;151;26:*.aif=0;38;2;104;157;106:*.amf=0;38;2;104;157;106:*.ape=0;38;2;104;157;106:*.apk=0;38;2;214;93;14:*.ari=0;38;2;104;157;106:*.arj=0;38;2;214;93;14:*.arw=0;38;2;104;157;106:*.asa=0;38;2;152;151;26:*.asm=0;38;2;152;151;26:*.aux=3;38;2;102;92;84:*.avi=1;38;2;142;192;124:*.awk=0;38;2;152;151;26:*.bag=0;38;2;214;93;14:*.bak=3;38;2;102;92;84:*.bat=1;38;2;184;187;38:*.bay=0;38;2;104;157;106:*.bbl=3;38;2;102;92;84:*.bcf=3;38;2;102;92;84:*.bib=0;38;2;250;189;47:*.bin=1;38;2;254;128;25:*.blg=3;38;2;102;92;84:*.bmp=0;38;2;104;157;106:*.bsh=0;38;2;152;151;26:*.bst=0;38;2;250;189;47:*.bz2=0;38;2;214;93;14:*.c++=0;38;2;152;151;26:*.cap=0;38;2;104;157;106:*.cfg=0;38;2;250;189;47:*.cgi=0;38;2;152;151;26:*.clj=0;38;2;152;151;26:*.com=1;38;2;184;187;38:*.cpp=0;38;2;152;151;26:*.cr2=0;38;2;104;157;106:*.cr3=0;38;2;104;157;106:*.crw=0;38;2;104;157;106:*.css=0;38;2;152;151;26:*.csv=0;38;2;215;153;33:*.csx=0;38;2;152;151;26:*.cxx=0;38;2;152;151;26:*.dae=0;38;2;104;157;106:*.dcr=0;38;2;104;157;106:*.dcs=0;38;2;104;157;106:*.deb=0;38;2;214;93;14:*.def=0;38;2;152;151;26:*.dll=1;38;2;184;187;38:*.dmg=1;38;2;254;128;25:*.dng=0;38;2;104;157;106:*.doc=1;38;2;131;165;152:*.dot=0;38;2;152;151;26:*.dox=3;38;2;184;187;38:*.dpr=0;38;2;152;151;26:*.drf=0;38;2;104;157;106:*.dxf=0;38;2;104;157;106:*.eip=0;38;2;104;157;106:*.elc=0;38;2;152;151;26:*.elm=0;38;2;152;151;26:*.epp=0;38;2;152;151;26:*.eps=0;38;2;104;157;106:*.erf=0;38;2;104;157;106:*.erl=0;38;2;152;151;26:*.exe=1;38;2;184;187;38:*.exr=0;38;2;104;157;106:*.exs=0;38;2;152;151;26:*.fbx=0;38;2;104;157;106:*.fff=0;38;2;104;157;106:*.fls=3;38;2;102;92;84:*.flv=1;38;2;142;192;124:*.fnt=0;38;2;104;157;106:*.fon=0;38;2;104;157;106:*.fsi=0;38;2;152;151;26:*.fsx=0;38;2;152;151;26:*.gif=0;38;2;104;157;106:*.git=3;38;2;102;92;84:*.gpr=0;38;2;104;157;106:*.gvy=0;38;2;152;151;26:*.h++=0;38;2;152;151;26:*.hda=0;38;2;104;157;106:*.hip=0;38;2;104;157;106:*.hpp=0;38;2;152;151;26:*.htc=0;38;2;152;151;26:*.htm=0;38;2;215;153;33:*.hxx=0;38;2;152;151;26:*.ico=0;38;2;104;157;106:*.ics=1;38;2;131;165;152:*.idx=3;38;2;102;92;84:*.igs=0;38;2;104;157;106:*.iiq=0;38;2;104;157;106:*.ilg=3;38;2;102;92;84:*.img=1;38;2;254;128;25:*.inc=0;38;2;152;151;26:*.ind=3;38;2;102;92;84:*.ini=0;38;2;250;189;47:*.inl=0;38;2;152;151;26:*.ino=0;38;2;152;151;26:*.ipp=0;38;2;152;151;26:*.iso=1;38;2;254;128;25:*.jar=0;38;2;214;93;14:*.jpg=0;38;2;104;157;106:*.jsx=0;38;2;152;151;26:*.jxl=0;38;2;104;157;106:*.k25=0;38;2;104;157;106:*.kdc=0;38;2;104;157;106:*.kex=1;38;2;131;165;152:*.kra=0;38;2;104;157;106:*.kts=0;38;2;152;151;26:*.log=3;38;2;102;92;84:*.ltx=0;38;2;152;151;26:*.lua=0;38;2;152;151;26:*.m3u=0;38;2;104;157;106:*.m4a=0;38;2;104;157;106:*.m4v=1;38;2;142;192;124:*.mdc=0;38;2;104;157;106:*.mef=0;38;2;104;157;106:*.mid=0;38;2;104;157;106:*.mir=0;38;2;152;151;26:*.mkv=1;38;2;142;192;124:*.mli=0;38;2;152;151;26:*.mos=0;38;2;104;157;106:*.mov=1;38;2;142;192;124:*.mp3=0;38;2;104;157;106:*.mp4=1;38;2;142;192;124:*.mpg=1;38;2;142;192;124:*.mrw=0;38;2;104;157;106:*.msi=0;38;2;214;93;14:*.mtl=0;38;2;104;157;106:*.nef=0;38;2;104;157;106:*.nim=0;38;2;152;151;26:*.nix=0;38;2;250;189;47:*.nrw=0;38;2;104;157;106:*.obj=0;38;2;104;157;106:*.obm=0;38;2;104;157;106:*.odp=1;38;2;131;165;152:*.ods=1;38;2;131;165;152:*.odt=1;38;2;131;165;152:*.ogg=0;38;2;104;157;106:*.ogv=1;38;2;142;192;124:*.orf=0;38;2;104;157;106:*.org=0;38;2;215;153;33:*.otf=0;38;2;104;157;106:*.otl=0;38;2;104;157;106:*.out=3;38;2;102;92;84:*.pas=0;38;2;152;151;26:*.pbm=0;38;2;104;157;106:*.pcx=0;38;2;104;157;106:*.pdf=1;38;2;131;165;152:*.pef=0;38;2;104;157;106:*.pgm=0;38;2;104;157;106:*.php=0;38;2;152;151;26:*.pid=3;38;2;102;92;84:*.pkg=0;38;2;214;93;14:*.png=0;38;2;104;157;106:*.pod=0;38;2;152;151;26:*.ppm=0;38;2;104;157;106:*.pps=1;38;2;131;165;152:*.ppt=1;38;2;131;165;152:*.pro=3;38;2;184;187;38:*.ps1=0;38;2;152;151;26:*.psd=0;38;2;104;157;106:*.ptx=0;38;2;104;157;106:*.pxn=0;38;2;104;157;106:*.pyc=3;38;2;102;92;84:*.pyd=3;38;2;102;92;84:*.pyo=3;38;2;102;92;84:*.qoi=0;38;2;104;157;106:*.r3d=0;38;2;104;157;106:*.raf=0;38;2;104;157;106:*.rar=0;38;2;214;93;14:*.raw=0;38;2;104;157;106:*.rpm=0;38;2;214;93;14:*.rst=0;38;2;215;153;33:*.rtf=1;38;2;131;165;152:*.rw2=0;38;2;104;157;106:*.rwl=0;38;2;104;157;106:*.rwz=0;38;2;104;157;106:*.sbt=0;38;2;152;151;26:*.sql=0;38;2;152;151;26:*.sr2=0;38;2;104;157;106:*.srf=0;38;2;104;157;106:*.srw=0;38;2;104;157;106:*.stl=0;38;2;104;157;106:*.stp=0;38;2;104;157;106:*.sty=3;38;2;102;92;84:*.svg=0;38;2;104;157;106:*.swf=1;38;2;142;192;124:*.swp=3;38;2;102;92;84:*.sxi=1;38;2;131;165;152:*.sxw=1;38;2;131;165;152:*.tar=0;38;2;214;93;14:*.tbz=0;38;2;214;93;14:*.tcl=0;38;2;152;151;26:*.tex=0;38;2;152;151;26:*.tga=0;38;2;104;157;106:*.tgz=0;38;2;214;93;14:*.tif=0;38;2;104;157;106:*.tml=0;38;2;250;189;47:*.tmp=3;38;2;102;92;84:*.toc=3;38;2;102;92;84:*.tsx=0;38;2;152;151;26:*.ttf=0;38;2;104;157;106:*.txt=0;38;2;235;219;178:*.typ=0;38;2;215;153;33:*.usd=0;38;2;104;157;106:*.vcd=1;38;2;254;128;25:*.vim=0;38;2;152;151;26:*.vob=1;38;2;142;192;124:*.vsh=0;38;2;152;151;26:*.wav=0;38;2;104;157;106:*.wma=0;38;2;104;157;106:*.wmv=1;38;2;142;192;124:*.wrl=0;38;2;104;157;106:*.x3d=0;38;2;104;157;106:*.x3f=0;38;2;104;157;106:*.xlr=1;38;2;131;165;152:*.xls=1;38;2;131;165;152:*.xml=0;38;2;215;153;33:*.xmp=0;38;2;250;189;47:*.xpm=0;38;2;104;157;106:*.xvf=0;38;2;104;157;106:*.yml=0;38;2;250;189;47:*.zig=0;38;2;152;151;26:*.zip=0;38;2;214;93;14:*.zsh=0;38;2;152;151;26:*.zst=0;38;2;214;93;14:*TODO=0;38;2;184;187;38:*hgrc=3;38;2;184;187;38:*.avif=0;38;2;104;157;106:*.bash=0;38;2;152;151;26:*.braw=0;38;2;104;157;106:*.conf=0;38;2;250;189;47:*.dart=0;38;2;152;151;26:*.data=0;38;2;104;157;106:*.diff=0;38;2;152;151;26:*.docx=1;38;2;131;165;152:*.epub=1;38;2;131;165;152:*.fish=0;38;2;152;151;26:*.flac=0;38;2;104;157;106:*.h264=1;38;2;142;192;124:*.hack=0;38;2;152;151;26:*.heif=0;38;2;104;157;106:*.hgrc=3;38;2;184;187;38:*.html=0;38;2;215;153;33:*.iges=0;38;2;104;157;106:*.info=0;38;2;215;153;33:*.java=0;38;2;152;151;26:*.jpeg=0;38;2;104;157;106:*.json=0;38;2;250;189;47:*.less=0;38;2;152;151;26:*.lisp=0;38;2;152;151;26:*.lock=3;38;2;102;92;84:*.make=3;38;2;184;187;38:*.mojo=0;38;2;152;151;26:*.mpeg=1;38;2;142;192;124:*.nims=0;38;2;152;151;26:*.opus=0;38;2;104;157;106:*.orig=3;38;2;102;92;84:*.pptx=1;38;2;131;165;152:*.prql=0;38;2;152;151;26:*.psd1=0;38;2;152;151;26:*.psm1=0;38;2;152;151;26:*.purs=0;38;2;152;151;26:*.raku=0;38;2;152;151;26:*.rlib=3;38;2;102;92;84:*.sass=0;38;2;152;151;26:*.scad=0;38;2;152;151;26:*.scss=0;38;2;152;151;26:*.step=0;38;2;104;157;106:*.tbz2=0;38;2;214;93;14:*.tiff=0;38;2;104;157;106:*.toml=0;38;2;250;189;47:*.usda=0;38;2;104;157;106:*.usdc=0;38;2;104;157;106:*.usdz=0;38;2;104;157;106:*.webm=1;38;2;142;192;124:*.webp=0;38;2;104;157;106:*.woff=0;38;2;104;157;106:*.xbps=0;38;2;214;93;14:*.xlsx=1;38;2;131;165;152:*.yaml=0;38;2;250;189;47:*stdin=3;38;2;102;92;84:*v.mod=3;38;2;184;187;38:*.blend=0;38;2;104;157;106:*.cabal=0;38;2;152;151;26:*.cache=3;38;2;102;92;84:*.class=3;38;2;102;92;84:*.cmake=3;38;2;184;187;38:*.ctags=3;38;2;102;92;84:*.dylib=1;38;2;184;187;38:*.dyn_o=3;38;2;102;92;84:*.gcode=0;38;2;152;151;26:*.ipynb=0;38;2;152;151;26:*.mdown=0;38;2;215;153;33:*.patch=0;38;2;152;151;26:*.rmeta=3;38;2;102;92;84:*.scala=0;38;2;152;151;26:*.shtml=0;38;2;215;153;33:*.swift=0;38;2;152;151;26:*.toast=1;38;2;254;128;25:*.woff2=0;38;2;104;157;106:*.xhtml=0;38;2;215;153;33:*Icon\r=3;38;2;102;92;84:*LEGACY=1;38;2;250;189;47:*NOTICE=1;38;2;250;189;47:*README=1;38;2;250;189;47:*go.mod=3;38;2;184;187;38:*go.sum=3;38;2;102;92;84:*passwd=0;38;2;250;189;47:*shadow=0;38;2;250;189;47:*stderr=3;38;2;102;92;84:*stdout=3;38;2;102;92;84:*.bashrc=0;38;2;152;151;26:*.config=0;38;2;250;189;47:*.dyn_hi=3;38;2;102;92;84:*.flake8=3;38;2;184;187;38:*.gradle=0;38;2;152;151;26:*.groovy=0;38;2;152;151;26:*.ignore=3;38;2;184;187;38:*.matlab=0;38;2;152;151;26:*.nimble=0;38;2;152;151;26:*COPYING=3;38;2;235;219;178:*INSTALL=1;38;2;250;189;47:*LICENCE=3;38;2;235;219;178:*LICENSE=3;38;2;235;219;178:*TODO.md=0;38;2;184;187;38:*VERSION=1;38;2;250;189;47:*.alembic=0;38;2;104;157;106:*.desktop=0;38;2;250;189;47:*.gemspec=3;38;2;184;187;38:*.mailmap=3;38;2;184;187;38:*Doxyfile=3;38;2;184;187;38:*Makefile=3;38;2;184;187;38:*TODO.txt=0;38;2;184;187;38:*setup.py=3;38;2;184;187;38:*.DS_Store=3;38;2;102;92;84:*.cmake.in=3;38;2;184;187;38:*.fdignore=3;38;2;184;187;38:*.kdevelop=3;38;2;184;187;38:*.markdown=0;38;2;215;153;33:*.rgignore=3;38;2;184;187;38:*.tfignore=3;38;2;184;187;38:*CHANGELOG=1;38;2;250;189;47:*COPYRIGHT=3;38;2;235;219;178:*README.md=1;38;2;250;189;47:*bun.lockb=3;38;2;102;92;84:*configure=3;38;2;184;187;38:*.gitconfig=3;38;2;184;187;38:*.gitignore=3;38;2;184;187;38:*.localized=3;38;2;102;92;84:*.scons_opt=3;38;2;102;92;84:*.timestamp=3;38;2;102;92;84:*CODEOWNERS=3;38;2;184;187;38:*Dockerfile=0;38;2;250;189;47:*INSTALL.md=1;38;2;250;189;47:*README.txt=1;38;2;250;189;47:*SConscript=3;38;2;184;187;38:*SConstruct=3;38;2;184;187;38:*.cirrus.yml=0;38;2;131;165;152:*.gitmodules=3;38;2;184;187;38:*.synctex.gz=3;38;2;102;92;84:*.travis.yml=0;38;2;131;165;152:*INSTALL.txt=1;38;2;250;189;47:*LICENSE-MIT=3;38;2;235;219;178:*MANIFEST.in=3;38;2;184;187;38:*Makefile.am=3;38;2;184;187;38:*Makefile.in=3;38;2;102;92;84:*.applescript=0;38;2;152;151;26:*.fdb_latexmk=3;38;2;102;92;84:*.webmanifest=0;38;2;250;189;47:*CHANGELOG.md=1;38;2;250;189;47:*CONTRIBUTING=1;38;2;250;189;47:*CONTRIBUTORS=1;38;2;250;189;47:*appveyor.yml=0;38;2;131;165;152:*configure.ac=3;38;2;184;187;38:*.bash_profile=0;38;2;152;151;26:*.clang-format=3;38;2;184;187;38:*.editorconfig=3;38;2;184;187;38:*CHANGELOG.txt=1;38;2;250;189;47:*.gitattributes=3;38;2;184;187;38:*.gitlab-ci.yml=0;38;2;131;165;152:*CMakeCache.txt=3;38;2;102;92;84:*CMakeLists.txt=3;38;2;184;187;38:*LICENSE-APACHE=3;38;2;235;219;178:*pyproject.toml=3;38;2;184;187;38:*CODE_OF_CONDUCT=1;38;2;250;189;47:*CONTRIBUTING.md=1;38;2;250;189;47:*CONTRIBUTORS.md=1;38;2;250;189;47:*.sconsign.dblite=3;38;2;102;92;84:*CONTRIBUTING.txt=1;38;2;250;189;47:*CONTRIBUTORS.txt=1;38;2;250;189;47:*requirements.txt=3;38;2;184;187;38:*package-lock.json=3;38;2;102;92;84:*CODE_OF_CONDUCT.md=1;38;2;250;189;47:*.CFUserTextEncoding=3;38;2;102;92;84:*CODE_OF_CONDUCT.txt=1;38;2;250;189;47:*azure-pipelines.yml=0;38;2;131;165;152
+sudo systemctl set-environment LS_COLORS='*~=3;38;2;102;92;84:bd=1;38;2;215;153;33:ca=0;38;2;40;40;40;48;2;204;36;29:cd=3;38;2;250;189;47:di=0;38;2;69;133;136:do=1;38;2;211;134;155:ex=1;38;2;184;187;38:fi=0;38;2;235;219;178;48;2;40;40;40:ln=3;38;2;131;165;152:mh=1:mi=0;38;2;235;219;178;48;2;251;73;52:no=0;38;2;235;219;178;48;2;40;40;40:or=3;38;2;251;73;52:ow=1;38;2;184;187;38:pi=0;38;2;177;98;134:rs=0:sg=0;38;2;40;40;40;48;2;214;93;14:so=1;38;2;177;98;134:st=0;38;2;235;219;178;48;2;69;133;136:su=0;38;2;235;219;178;48;2;204;36;29:tw=3;38;2;235;219;178;48;2;69;133;136:*.1=0;38;2;215;153;33:*.a=1;38;2;184;187;38:*.c=0;38;2;152;151;26:*.d=0;38;2;152;151;26:*.h=0;38;2;152;151;26:*.m=0;38;2;152;151;26:*.o=3;38;2;102;92;84:*.p=0;38;2;152;151;26:*.r=0;38;2;152;151;26:*.t=0;38;2;152;151;26:*.v=0;38;2;152;151;26:*.z=0;38;2;214;93;14:*.7z=0;38;2;214;93;14:*.ai=0;38;2;104;157;106:*.as=0;38;2;152;151;26:*.bc=3;38;2;102;92;84:*.bz=0;38;2;214;93;14:*.cc=0;38;2;152;151;26:*.cp=0;38;2;152;151;26:*.cr=0;38;2;152;151;26:*.cs=0;38;2;152;151;26:*.db=0;38;2;214;93;14:*.di=0;38;2;152;151;26:*.el=0;38;2;152;151;26:*.ex=0;38;2;152;151;26:*.fs=0;38;2;152;151;26:*.go=0;38;2;152;151;26:*.gv=0;38;2;152;151;26:*.gz=0;38;2;214;93;14:*.ha=0;38;2;152;151;26:*.hh=0;38;2;152;151;26:*.hi=3;38;2;102;92;84:*.hs=0;38;2;152;151;26:*.jl=0;38;2;152;151;26:*.js=0;38;2;152;151;26:*.ko=1;38;2;184;187;38:*.kt=0;38;2;152;151;26:*.la=3;38;2;102;92;84:*.ll=0;38;2;152;151;26:*.lo=3;38;2;102;92;84:*.ma=0;38;2;104;157;106:*.mb=0;38;2;104;157;106:*.md=0;38;2;215;153;33:*.mk=3;38;2;184;187;38:*.ml=0;38;2;152;151;26:*.mn=0;38;2;152;151;26:*.nb=0;38;2;152;151;26:*.nu=0;38;2;152;151;26:*.pl=0;38;2;152;151;26:*.pm=0;38;2;152;151;26:*.pp=0;38;2;152;151;26:*.ps=1;38;2;131;165;152:*.py=0;38;2;152;151;26:*.rb=0;38;2;152;151;26:*.rm=1;38;2;142;192;124:*.rs=0;38;2;152;151;26:*.sh=0;38;2;152;151;26:*.so=1;38;2;184;187;38:*.td=0;38;2;152;151;26:*.ts=0;38;2;152;151;26:*.ui=0;38;2;250;189;47:*.vb=0;38;2;152;151;26:*.wv=0;38;2;104;157;106:*.xz=0;38;2;214;93;14:*FAQ=1;38;2;250;189;47:*.3ds=0;38;2;104;157;106:*.3fr=0;38;2;104;157;106:*.3mf=0;38;2;104;157;106:*.adb=0;38;2;152;151;26:*.ads=0;38;2;152;151;26:*.aif=0;38;2;104;157;106:*.amf=0;38;2;104;157;106:*.ape=0;38;2;104;157;106:*.apk=0;38;2;214;93;14:*.ari=0;38;2;104;157;106:*.arj=0;38;2;214;93;14:*.arw=0;38;2;104;157;106:*.asa=0;38;2;152;151;26:*.asm=0;38;2;152;151;26:*.aux=3;38;2;102;92;84:*.avi=1;38;2;142;192;124:*.awk=0;38;2;152;151;26:*.bag=0;38;2;214;93;14:*.bak=3;38;2;102;92;84:*.bat=1;38;2;184;187;38:*.bay=0;38;2;104;157;106:*.bbl=3;38;2;102;92;84:*.bcf=3;38;2;102;92;84:*.bib=0;38;2;250;189;47:*.bin=1;38;2;254;128;25:*.blg=3;38;2;102;92;84:*.bmp=0;38;2;104;157;106:*.bsh=0;38;2;152;151;26:*.bst=0;38;2;250;189;47:*.bz2=0;38;2;214;93;14:*.c++=0;38;2;152;151;26:*.cap=0;38;2;104;157;106:*.cfg=0;38;2;250;189;47:*.cgi=0;38;2;152;151;26:*.clj=0;38;2;152;151;26:*.com=1;38;2;184;187;38:*.cpp=0;38;2;152;151;26:*.cr2=0;38;2;104;157;106:*.cr3=0;38;2;104;157;106:*.crw=0;38;2;104;157;106:*.css=0;38;2;152;151;26:*.csv=0;38;2;215;153;33:*.csx=0;38;2;152;151;26:*.cxx=0;38;2;152;151;26:*.dae=0;38;2;104;157;106:*.dcr=0;38;2;104;157;106:*.dcs=0;38;2;104;157;106:*.deb=0;38;2;214;93;14:*.def=0;38;2;152;151;26:*.dll=1;38;2;184;187;38:*.dmg=1;38;2;254;128;25:*.dng=0;38;2;104;157;106:*.doc=1;38;2;131;165;152:*.dot=0;38;2;152;151;26:*.dox=3;38;2;184;187;38:*.dpr=0;38;2;152;151;26:*.drf=0;38;2;104;157;106:*.dxf=0;38;2;104;157;106:*.eip=0;38;2;104;157;106:*.elc=0;38;2;152;151;26:*.elm=0;38;2;152;151;26:*.epp=0;38;2;152;151;26:*.eps=0;38;2;104;157;106:*.erf=0;38;2;104;157;106:*.erl=0;38;2;152;151;26:*.exe=1;38;2;184;187;38:*.exr=0;38;2;104;157;106:*.exs=0;38;2;152;151;26:*.fbx=0;38;2;104;157;106:*.fff=0;38;2;104;157;106:*.fls=3;38;2;102;92;84:*.flv=1;38;2;142;192;124:*.fnt=0;38;2;104;157;106:*.fon=0;38;2;104;157;106:*.fsi=0;38;2;152;151;26:*.fsx=0;38;2;152;151;26:*.gif=0;38;2;104;157;106:*.git=3;38;2;102;92;84:*.gpr=0;38;2;104;157;106:*.gvy=0;38;2;152;151;26:*.h++=0;38;2;152;151;26:*.hda=0;38;2;104;157;106:*.hip=0;38;2;104;157;106:*.hpp=0;38;2;152;151;26:*.htc=0;38;2;152;151;26:*.htm=0;38;2;215;153;33:*.hxx=0;38;2;152;151;26:*.ico=0;38;2;104;157;106:*.ics=1;38;2;131;165;152:*.idx=3;38;2;102;92;84:*.igs=0;38;2;104;157;106:*.iiq=0;38;2;104;157;106:*.ilg=3;38;2;102;92;84:*.img=1;38;2;254;128;25:*.inc=0;38;2;152;151;26:*.ind=3;38;2;102;92;84:*.ini=0;38;2;250;189;47:*.inl=0;38;2;152;151;26:*.ino=0;38;2;152;151;26:*.ipp=0;38;2;152;151;26:*.iso=1;38;2;254;128;25:*.jar=0;38;2;214;93;14:*.jpg=0;38;2;104;157;106:*.jsx=0;38;2;152;151;26:*.jxl=0;38;2;104;157;106:*.k25=0;38;2;104;157;106:*.kdc=0;38;2;104;157;106:*.kex=1;38;2;131;165;152:*.kra=0;38;2;104;157;106:*.kts=0;38;2;152;151;26:*.log=3;38;2;102;92;84:*.ltx=0;38;2;152;151;26:*.lua=0;38;2;152;151;26:*.m3u=0;38;2;104;157;106:*.m4a=0;38;2;104;157;106:*.m4v=1;38;2;142;192;124:*.mdc=0;38;2;104;157;106:*.mef=0;38;2;104;157;106:*.mid=0;38;2;104;157;106:*.mir=0;38;2;152;151;26:*.mkv=1;38;2;142;192;124:*.mli=0;38;2;152;151;26:*.mos=0;38;2;104;157;106:*.mov=1;38;2;142;192;124:*.mp3=0;38;2;104;157;106:*.mp4=1;38;2;142;192;124:*.mpg=1;38;2;142;192;124:*.mrw=0;38;2;104;157;106:*.msi=0;38;2;214;93;14:*.mtl=0;38;2;104;157;106:*.nef=0;38;2;104;157;106:*.nim=0;38;2;152;151;26:*.nix=0;38;2;250;189;47:*.nrw=0;38;2;104;157;106:*.obj=0;38;2;104;157;106:*.obm=0;38;2;104;157;106:*.odp=1;38;2;131;165;152:*.ods=1;38;2;131;165;152:*.odt=1;38;2;131;165;152:*.ogg=0;38;2;104;157;106:*.ogv=1;38;2;142;192;124:*.orf=0;38;2;104;157;106:*.org=0;38;2;215;153;33:*.otf=0;38;2;104;157;106:*.otl=0;38;2;104;157;106:*.out=3;38;2;102;92;84:*.pas=0;38;2;152;151;26:*.pbm=0;38;2;104;157;106:*.pcx=0;38;2;104;157;106:*.pdf=1;38;2;131;165;152:*.pef=0;38;2;104;157;106:*.pgm=0;38;2;104;157;106:*.php=0;38;2;152;151;26:*.pid=3;38;2;102;92;84:*.pkg=0;38;2;214;93;14:*.png=0;38;2;104;157;106:*.pod=0;38;2;152;151;26:*.ppm=0;38;2;104;157;106:*.pps=1;38;2;131;165;152:*.ppt=1;38;2;131;165;152:*.pro=3;38;2;184;187;38:*.ps1=0;38;2;152;151;26:*.psd=0;38;2;104;157;106:*.ptx=0;38;2;104;157;106:*.pxn=0;38;2;104;157;106:*.pyc=3;38;2;102;92;84:*.pyd=3;38;2;102;92;84:*.pyo=3;38;2;102;92;84:*.qoi=0;38;2;104;157;106:*.r3d=0;38;2;104;157;106:*.raf=0;38;2;104;157;106:*.rar=0;38;2;214;93;14:*.raw=0;38;2;104;157;106:*.rpm=0;38;2;214;93;14:*.rst=0;38;2;215;153;33:*.rtf=1;38;2;131;165;152:*.rw2=0;38;2;104;157;106:*.rwl=0;38;2;104;157;106:*.rwz=0;38;2;104;157;106:*.sbt=0;38;2;152;151;26:*.sql=0;38;2;152;151;26:*.sr2=0;38;2;104;157;106:*.srf=0;38;2;104;157;106:*.srw=0;38;2;104;157;106:*.stl=0;38;2;104;157;106:*.stp=0;38;2;104;157;106:*.sty=3;38;2;102;92;84:*.svg=0;38;2;104;157;106:*.swf=1;38;2;142;192;124:*.swp=3;38;2;102;92;84:*.sxi=1;38;2;131;165;152:*.sxw=1;38;2;131;165;152:*.tar=0;38;2;214;93;14:*.tbz=0;38;2;214;93;14:*.tcl=0;38;2;152;151;26:*.tex=0;38;2;152;151;26:*.tga=0;38;2;104;157;106:*.tgz=0;38;2;214;93;14:*.tif=0;38;2;104;157;106:*.tml=0;38;2;250;189;47:*.tmp=3;38;2;102;92;84:*.toc=3;38;2;102;92;84:*.tsx=0;38;2;152;151;26:*.ttf=0;38;2;104;157;106:*.txt=0;38;2;235;219;178:*.typ=0;38;2;215;153;33:*.usd=0;38;2;104;157;106:*.vcd=1;38;2;254;128;25:*.vim=0;38;2;152;151;26:*.vob=1;38;2;142;192;124:*.vsh=0;38;2;152;151;26:*.wav=0;38;2;104;157;106:*.wma=0;38;2;104;157;106:*.wmv=1;38;2;142;192;124:*.wrl=0;38;2;104;157;106:*.x3d=0;38;2;104;157;106:*.x3f=0;38;2;104;157;106:*.xlr=1;38;2;131;165;152:*.xls=1;38;2;131;165;152:*.xml=0;38;2;215;153;33:*.xmp=0;38;2;250;189;47:*.xpm=0;38;2;104;157;106:*.xvf=0;38;2;104;157;106:*.yml=0;38;2;250;189;47:*.zig=0;38;2;152;151;26:*.zip=0;38;2;214;93;14:*.zsh=0;38;2;152;151;26:*.zst=0;38;2;214;93;14:*TODO=0;38;2;184;187;38:*hgrc=3;38;2;184;187;38:*.avif=0;38;2;104;157;106:*.bash=0;38;2;152;151;26:*.braw=0;38;2;104;157;106:*.conf=0;38;2;250;189;47:*.dart=0;38;2;152;151;26:*.data=0;38;2;104;157;106:*.diff=0;38;2;152;151;26:*.docx=1;38;2;131;165;152:*.epub=1;38;2;131;165;152:*.fish=0;38;2;152;151;26:*.flac=0;38;2;104;157;106:*.h264=1;38;2;142;192;124:*.hack=0;38;2;152;151;26:*.heif=0;38;2;104;157;106:*.hgrc=3;38;2;184;187;38:*.html=0;38;2;215;153;33:*.iges=0;38;2;104;157;106:*.info=0;38;2;215;153;33:*.java=0;38;2;152;151;26:*.jpeg=0;38;2;104;157;106:*.json=0;38;2;250;189;47:*.less=0;38;2;152;151;26:*.lisp=0;38;2;152;151;26:*.lock=3;38;2;102;92;84:*.make=3;38;2;184;187;38:*.mojo=0;38;2;152;151;26:*.mpeg=1;38;2;142;192;124:*.nims=0;38;2;152;151;26:*.opus=0;38;2;104;157;106:*.orig=3;38;2;102;92;84:*.pptx=1;38;2;131;165;152:*.prql=0;38;2;152;151;26:*.psd1=0;38;2;152;151;26:*.psm1=0;38;2;152;151;26:*.purs=0;38;2;152;151;26:*.raku=0;38;2;152;151;26:*.rlib=3;38;2;102;92;84:*.sass=0;38;2;152;151;26:*.scad=0;38;2;152;151;26:*.scss=0;38;2;152;151;26:*.step=0;38;2;104;157;106:*.tbz2=0;38;2;214;93;14:*.tiff=0;38;2;104;157;106:*.toml=0;38;2;250;189;47:*.usda=0;38;2;104;157;106:*.usdc=0;38;2;104;157;106:*.usdz=0;38;2;104;157;106:*.webm=1;38;2;142;192;124:*.webp=0;38;2;104;157;106:*.woff=0;38;2;104;157;106:*.xbps=0;38;2;214;93;14:*.xlsx=1;38;2;131;165;152:*.yaml=0;38;2;250;189;47:*stdin=3;38;2;102;92;84:*v.mod=3;38;2;184;187;38:*.blend=0;38;2;104;157;106:*.cabal=0;38;2;152;151;26:*.cache=3;38;2;102;92;84:*.class=3;38;2;102;92;84:*.cmake=3;38;2;184;187;38:*.ctags=3;38;2;102;92;84:*.dylib=1;38;2;184;187;38:*.dyn_o=3;38;2;102;92;84:*.gcode=0;38;2;152;151;26:*.ipynb=0;38;2;152;151;26:*.mdown=0;38;2;215;153;33:*.patch=0;38;2;152;151;26:*.rmeta=3;38;2;102;92;84:*.scala=0;38;2;152;151;26:*.shtml=0;38;2;215;153;33:*.swift=0;38;2;152;151;26:*.toast=1;38;2;254;128;25:*.woff2=0;38;2;104;157;106:*.xhtml=0;38;2;215;153;33:*Icon\r=3;38;2;102;92;84:*LEGACY=1;38;2;250;189;47:*NOTICE=1;38;2;250;189;47:*README=1;38;2;250;189;47:*go.mod=3;38;2;184;187;38:*go.sum=3;38;2;102;92;84:*passwd=0;38;2;250;189;47:*shadow=0;38;2;250;189;47:*stderr=3;38;2;102;92;84:*stdout=3;38;2;102;92;84:*.bashrc=0;38;2;152;151;26:*.config=0;38;2;250;189;47:*.dyn_hi=3;38;2;102;92;84:*.flake8=3;38;2;184;187;38:*.gradle=0;38;2;152;151;26:*.groovy=0;38;2;152;151;26:*.ignore=3;38;2;184;187;38:*.matlab=0;38;2;152;151;26:*.nimble=0;38;2;152;151;26:*COPYING=3;38;2;235;219;178:*INSTALL=1;38;2;250;189;47:*LICENCE=3;38;2;235;219;178:*LICENSE=3;38;2;235;219;178:*TODO.md=0;38;2;184;187;38:*VERSION=1;38;2;250;189;47:*.alembic=0;38;2;104;157;106:*.desktop=0;38;2;250;189;47:*.gemspec=3;38;2;184;187;38:*.mailmap=3;38;2;184;187;38:*Doxyfile=3;38;2;184;187;38:*Makefile=3;38;2;184;187;38:*TODO.txt=0;38;2;184;187;38:*setup.py=3;38;2;184;187;38:*.DS_Store=3;38;2;102;92;84:*.cmake.in=3;38;2;184;187;38:*.fdignore=3;38;2;184;187;38:*.kdevelop=3;38;2;184;187;38:*.markdown=0;38;2;215;153;33:*.rgignore=3;38;2;184;187;38:*.tfignore=3;38;2;184;187;38:*CHANGELOG=1;38;2;250;189;47:*COPYRIGHT=3;38;2;235;219;178:*README.md=1;38;2;250;189;47:*bun.lockb=3;38;2;102;92;84:*configure=3;38;2;184;187;38:*.gitconfig=3;38;2;184;187;38:*.gitignore=3;38;2;184;187;38:*.localized=3;38;2;102;92;84:*.scons_opt=3;38;2;102;92;84:*.timestamp=3;38;2;102;92;84:*CODEOWNERS=3;38;2;184;187;38:*Dockerfile=0;38;2;250;189;47:*INSTALL.md=1;38;2;250;189;47:*README.txt=1;38;2;250;189;47:*SConscript=3;38;2;184;187;38:*SConstruct=3;38;2;184;187;38:*.cirrus.yml=0;38;2;131;165;152:*.gitmodules=3;38;2;184;187;38:*.synctex.gz=3;38;2;102;92;84:*.travis.yml=0;38;2;131;165;152:*INSTALL.txt=1;38;2;250;189;47:*LICENSE-MIT=3;38;2;235;219;178:*MANIFEST.in=3;38;2;184;187;38:*Makefile.am=3;38;2;184;187;38:*Makefile.in=3;38;2;102;92;84:*.applescript=0;38;2;152;151;26:*.fdb_latexmk=3;38;2;102;92;84:*.webmanifest=0;38;2;250;189;47:*CHANGELOG.md=1;38;2;250;189;47:*CONTRIBUTING=1;38;2;250;189;47:*CONTRIBUTORS=1;38;2;250;189;47:*appveyor.yml=0;38;2;131;165;152:*configure.ac=3;38;2;184;187;38:*.bash_profile=0;38;2;152;151;26:*.clang-format=3;38;2;184;187;38:*.editorconfig=3;38;2;184;187;38:*CHANGELOG.txt=1;38;2;250;189;47:*.gitattributes=3;38;2;184;187;38:*.gitlab-ci.yml=0;38;2;131;165;152:*CMakeCache.txt=3;38;2;102;92;84:*CMakeLists.txt=3;38;2;184;187;38:*LICENSE-APACHE=3;38;2;235;219;178:*pyproject.toml=3;38;2;184;187;38:*CODE_OF_CONDUCT=1;38;2;250;189;47:*CONTRIBUTING.md=1;38;2;250;189;47:*CONTRIBUTORS.md=1;38;2;250;189;47:*.sconsign.dblite=3;38;2;102;92;84:*CONTRIBUTING.txt=1;38;2;250;189;47:*CONTRIBUTORS.txt=1;38;2;250;189;47:*requirements.txt=3;38;2;184;187;38:*package-lock.json=3;38;2;102;92;84:*CODE_OF_CONDUCT.md=1;38;2;250;189;47:*.CFUserTextEncoding=3;38;2;102;92;84:*CODE_OF_CONDUCT.txt=1;38;2;250;189;47:*azure-pipelines.yml=0;38;2;131;165;152'
+sudo systemctl show-environment 
+sudo reboot
+sudo systemctl show-environment 
+man systemctl 30-systemd-environment-d-generator 
+man systemd-environment-d-generator 
+vivid generate gruvbox-dark
+vivid --help
+vivid -m 8-bit generate gruvbox-dark 
+sudo hx /usr/lib/systemd/system-environment-generators/10-colors
+cd /usr/lib/systemd/system-environment-generators/
+ls -al
+sudo chmod 755 10-colors 
+ls -al
+/usr/bin/vivid
+./10-colors
+sudo hx 10-colors 
+./10-colors
+sudo hx /etc/greetd/config.toml 
+sudo reboot
+sudo systemctl show-environment 
+/usr/bin/vivid
+/usr/bin/vivid generate
+/usr/bin/vivid generate gruvbox-dark
+vivid generate gruvbox-dark
+sudo hx /usr/lib/systemd/system-environment-generators/10-colors
+sudo hx /etc/greetd/config.toml 
+sudo reboot
+ls -al
+env
+ls --colors auto
+ls --help
+ls --help | bat
+^ls --colors
+^ls --color
+^ls --color auto
+^ls --color=auto
+^ls --help
+^ls --help | bat
+^ls --color=auto
+ls -al
+cd ..
+ls -al
+cd ~
+cd Downloads/
+ls -al
+cd ..
+sudo hx /etc/greetd/config.toml 
+sudo reboot
+man sway
+man 5 sway
+man 5 sway-input
+man 5 sway-output
+man 5 sway-bar 
+man 5 swaybar-protocol 
+man swaybar-protocol 
+man swaynag 
+man sway-ipc 
+swaymsg seat
+man swaymsg
+man sway-input 
+man 5 sway
+man sway-input 
+wtype -M ctrl - -m ctrl
+wtype -M 'ctrl -' -m ctrl
+wtype -M ctrl -P -
+wtype -M ctrl -P '-'
+wtype --help
+wtype -h
+man wtype
+wtype -M ctrl -P Minus
+wtype -M ctrl Minus
+wtype -M ctrl Minus -m ctrl
+wtype -M ctrl -P Minus
+wtype -M ctrl -P Minus -m ctrl -p minus
+wtype -M ctrl -P Minus
+wtype -M ctrl -P Plus
+localectl status
+localectl list-x11-keymap-variants 
+localectl set-x11-keymap no applealu_iso 
+localectl status
+cd .ssh
+ls
+ls -al
+sudo chmod 600 id_ed25519 
+sudo chmod 600 id_ed25519.pub
+ssh -v -T -D 35011 -o ConnectTimeout=15 vps
+man systemd-nspawn
+man machinectl
+sudo dnf install dnf5-plugins
+sudo dnf config-manager addrepo --from-repofile=https://cli.github.com/packages/rpm/gh-cli.repo
+sudo dnf install gh --repo gh-cli
+gh
+gh auth login --web
+gh extension install github/gh-copilot --force
+copilot
+gh copilot
+gh copilot explain "why is cloud-init installed on my arch linux vps"
+gh copilot explain "cloud-init"
+gh copilot explain "ssh"
+gh copilot suggest "list an installed systemd service's dependencies"
+gh copilot explain "cloud.service"
+code-insiders
+sudo dnf search haproxy
+sudo reboot
+sysz
+journalctl
+sudo dnf --help
+sudo dnf upgrade
+journalctl -r
+sudo reboot
+sudo journalctl -r
+wtype --help
+wtype
+man wtype
+sudo dnf --help
+sudo dnf search code-insiders
+sudo dnf install code-insiders
+sudo dnf upgrade code-insiders
+sudo dnf check-update
+sudo dnf dsync
+sudo dnf rei code-insiders
+sudo reboot
+sudo hx /usr/share/applications/
+hx ".config/Code - Insiders/User/settings.json" 
+sudo hx /usr/share/applications/
+journalctl -r
+swaymsg -t get_binding_modes 
+swaymsg -t mode "default"
+swaymsg -t set_mode "default"
+swaymsg -t set_binding_modes 
+swaymsg --help 
+swaymsg mode "default"
+swaymsg mode "pop"
+swaymsg mode "popup"
+sudo hx /usr/bin/sway-launcher-desktop 
+sudo hx /etc/sway/config.d/10-bindings 
+swaymsg mode 'popup'
+swaymsg mode 'default'
+swaymsg mode default
+pwmake 
+pwmake --help
+man pwmake
+kbd_mode --help
+asahi-diagnose 
+ls
+bat asahi-diagnose-20250408-161021.txt 
+sysrq
+man sysrq
+bat asahi-diagnose-20250408-161021.txt 
+leds
+kbdinfo 
+kbdinfo --help
+kbxutil 
+kbxutil --help
+kbd_mode --help
+systemd-analyze 
+python
+ls
+yazi
+python3
+hx kbdlight
+sudo chmod 755 kbdlight 
+./kbdlight
+./kbdlight 1
+hx kbdlight
+ls
+hx kbdlight 
+./kbdlight +
+sudo chown root:root kbdlight 
+./kbdlight +
+sudo ./kbdlight +
+sudo ./kbdlight -
+sudo ./kbdlight +
+sudo ./kbdlight -
+sudo hx kbdlight 
+sudo mv kbdlight /usr/bin/
+kbdlight 
+kbdlight +
+sudo kbdlight +
+sudo kbdlight -
+sudo kbdlight +
+sudo hx /usr/bin/kbdlight 
+sudo kbdlight -
+sudo kbdlight +
+sudo hx /etc/sway/config.d/10-bindings 
+sudo reboot
+sudo bat /usr/bin/kbdlight 
+cd /sys/devices/platform/led-controller/leds/kbd_backlight
+ls -al
+sudo chmod 777 brightness 
+sudo hx /usr/bin/kbdlight 
+sysz
+sudo reboot
+mkdir dotfiles
+cd dotfiles/
+ls
+mkdir pc
+mkdir server
+cd pc
+sudo cp -R /etc/sway sway
+ls
+cd sway/
+ls
+cd ..
+ls
+sudo cp -R /etc/xdg/waybar/ waybar
+ls
+cd waybar/
+ls
+rm __*
+sudo rm __*
+ls
+cd ..
+ls -al
+sudo chown koranda: *
+cd waybar/
+ls -al
+sudo chown koranda: *
+ls -al
+cd ..
+ls
+cd sway/
+ls -al
+sudo chown koranda: *
+cd ..
+cd sway/
+ls
+cd config.d/
+ls -al
+sudo chown koranda: *
+cd ..
+ls
+cd ..
+ls
+cd pc
+ls
+cd sway/
+ls
+cd ..
+ls
+sudo mv waybar/ sway/
+ls
+cd sway/
+ls
+mkdir launchere
+mv launchere/ launcher
+ls
+sudo cp /usr/bin/sway-launcher-desktop launcher/
+ls
+cd launcher/
+ls
+cp ~/.config/menu/providers.conf .
+ls
+cd ..
+ls
+cd ..
+ls
+mkdir desktop
+sudo cp /usr/share/applications/* desktop/
+cd desktop/
+ls
+bat mimeapps.list 
+rm mime*
+cd ..
+ls
+cd ..
+ls
+cd pc/
+ls
+mv desktop/ applications
+mkdir login
+sudo cp /etc/greetd/config.toml login/
+cd login/
+ls
+cd ..
+ls
+cd sway/
+ls
+mkdir bin
+mv launcher/ bin/
+ls
+sudo cp /usr/bin/kbdlight bin/
+sudo cp /usr/libexec/sway-systemd/* systemd/
+sudo cp /usr/libexec/sway-systemd systemd
+sudo cp -r /usr/libexec/sway-systemd systemd
+ls -al
+cd systemd/
+ls
+cd ..
+ls
+cat .ssh/id_ed25519.pub 
+dc ..
+cd ..
+sudo mv dotfiles/ .dotfiles
+git clone git@github.com:smkoranda/dotfiles.git
+ls
+cd dotfiles/
+ls
+cd ..
+ls
+sudo mv .dotfiles/* dotfiles/
+cd dotfiles/
+ls
+cd pc/
+ls
+cd sway/
+ls
+cd config.d/
+ls
+cd ..
+sudo chown -R koranda: dotfiles/*
+cd dotfiles/ls -al
+cd dotfiles/
+ls -al
+cd pc/
+ls -al
+cd sway/
+ls -al
+cd config.d/
+ls -al
+cd ..
+git add .
+git commit -m "PC: greetd, login, wm, statusbar"
+cd ..
+ssh-keygen -t ed25519 -C "sebastian.koranda@gmail.com"
+mkdir .ssh/github
+ssh-keygen -t ed25519 -C "sebastian.koranda@gmail.com"
+rm -rf .ssh/github
+ssh-keygen -t ed25519 -C "sebastian.koranda@gmail.com"
+cat .ssh/github.pub 
+cd dotfiles/
+git commit -m "PC: greetd, login, wm, statusbar"
+git config --global user.name "Sebastian Koranda"
+git config --global user.email "sebastian.koranda@gmail.com"
+hx ../.ssh/config 
+git commit -m "PC: greetd, login, wm, statusbar"
+git push origin main
+cd ..
+cd .ssh
+ls -al
+hx ../.ssh/config 
+cd ..
+cd dotfiles/
+git push origin main
+cd ..
+cd .config/
+ls -al
+sudo cp -r "Code - Insiders/" ../dotfiles/pc/vscode
+sudo cp -r alacritty ../dotfiles/pc/vscode
+sudo cp -r fish ../dotfiles/pc/fish
+sudo cp -r alacritty ../dotfiles/pc/alacritty
+sudo cp -r "Code - Insiders/" ../dotfiles/pc/vscode
+cd ..
+cd dotfiles/pc/
+ls -al
+cd alacritty/
+ls
+cd ..
+cd vscode/
+sudo chown -R koranda: *
+cd vscode/
+ls
+cd ..
+ls
+cd fish/
+ls
+cd ..
+cd .config/
