@@ -1,0 +1,33 @@
+{
+    "workbench.colorTheme": "Gruvbox Dark (Medium)",
+    "workbench.iconTheme": "Monokai Pro Icons",
+    "files.simpleDialog.enable": true,
+    "workbench.welcomePage.walkthroughs.openOnInstall": false,
+    "workbench.startupEditor": "none",
+    "security.workspace.trust.startupPrompt": "never",
+    "launch": {
+
+        "configurations": [],
+        "compounds": []
+    },
+    "terminal.integrated.shellIntegration.enabled": false,
+    "window.title": "${remoteName} ",
+    "workbench.colorCustomizations": {
+        "[Gruvbox*]": {
+            "menu.background": "#282828",
+            "menubar.selectionBackground": "#282828",
+            "menu.selectionBackground": "#282828"
+        }
+    },
+    "window.controlsStyle": "hidden",
+    "window.newWindowProfile": "Local",
+    "window.customTitleBarVisibility": "never",
+    "window.titleBarStyle": "custom",
+    "remote.SSH.connectTimeout": 30,
+    "remote.SSH.enableX11Forwarding": false,
+    "remote.SSH.useExecServer": false,
+    "remote.SSH.useLocalServer": false,
+    "remote.SSH.remotePlatform": {
+        "vps": "linux"
+    }
+}
